@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Employee_Salary_Details</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>34918fa4-b1f6-42ac-9fc8-353a5ddf6cf1</testCaseGuid>
+</TestCaseEntity>
