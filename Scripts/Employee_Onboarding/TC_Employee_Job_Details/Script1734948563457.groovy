@@ -17,24 +17,64 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Object Repository/Employee-Onboarding/Employee_Salary_Details/Page_OrangeHRM
+// Select an employee record by clicking on the corresponding employee ID
+WebUI.comment('Step 1: Select the employee record by clicking on the employee ID')
 
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_0034008'))
 
+// Navigate to the "Job" tab in the employee details
+WebUI.comment('Step 2: Click on the "Job" tab in the employee details section')
+
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_Job'))
+
+// Open the calendar to select a "Joined Date"
+WebUI.comment('Step 3: Open the date picker for "Joined Date"')
 
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_Joined Date_oxd-icon bi-calendar oxd-date_38329e'))
 
+// Select a specific date (e.g., 31st) from the calendar
+WebUI.comment('Step 4: Select the 31st as the "Joined Date"')
+
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_31'))
+
+// Adjust dropdown selections (e.g., job details or employment type)
+WebUI.comment('Step 5: Open the dropdown menu to make selections (e.g., job title, employment type)')
 
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec'))
 
+WebUI.click(findTestObject('Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown', 
+        [('value') : 'AI Test Engineer']))
+
+WebUI.comment('Step 6: Select the desired job option from the dropdown')
+
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1'))
+
+WebUI.click(findTestObject('Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown', 
+        [('value') : 'Professionals']))
+
+WebUI.comment('Step 7: Select the desired job category from the dropdown')
 
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2'))
 
+WebUI.click(findTestObject('Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown', 
+        [('value') : 'QA Tester']))
+
+WebUI.comment('Step 8: Select the desired sub-category from the dropdown')
+
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3'))
+
+WebUI.click(findTestObject('Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown', 
+        [('value') : 'Office']))
+
+WebUI.comment('Step 9: Finalize the job details by selecting the appropriate options from the dropdown')
 
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3_4'))
 
+WebUI.click(findTestObject('Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown', 
+        [('value') : 'Full-Time Permanent']))
+
+// Save the changes made to the job details
+WebUI.comment('Step 10: Click the "Save" button to save the updated job details for the employee')
+
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Save'))
+

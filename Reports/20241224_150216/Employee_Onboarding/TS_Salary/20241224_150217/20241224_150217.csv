@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Salary,Chrome 131.0.0.0,,,24-12-2024 15:02:22,24-12-2024 15:02:53,30.487s,PASSED
+,,,,,,,
+Test Cases/Employee_Onboarding/TC_Employee_Login,Chrome 131.0.0.0,,,24-12-2024 15:02:22,24-12-2024 15:02:37,14.601s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,24-12-2024 15:02:22,24-12-2024 15:02:24,1.734s,PASSED
+"navigateToUrl(""http://orange.katalon.com/web/index.php/auth/login"")",Chrome 131.0.0.0,,,24-12-2024 15:02:24,24-12-2024 15:02:34,9.749s,PASSED
+"comment(""Test"")",Chrome 131.0.0.0,,,24-12-2024 15:02:34,24-12-2024 15:02:34,0.019s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username""), ""mahtab"")",Chrome 131.0.0.0,,,24-12-2024 15:02:34,24-12-2024 15:02:35,1.263s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password""), ""p7egalF197zCPQnMaznrNq5yBULcTkKN"")",Chrome 131.0.0.0,,,24-12-2024 15:02:35,24-12-2024 15:02:36,0.295s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Login""))",Chrome 131.0.0.0,,,24-12-2024 15:02:36,24-12-2024 15:02:37,1.451s,PASSED
+,,,,,,,
+Test Cases/Employee_Onboarding/TC_Employee_Salary_Details_1,Chrome 131.0.0.0,,,24-12-2024 15:02:37,24-12-2024 15:02:53,15.812s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Salary_Details_1/Page_OrangeHRM/a_PIM""))",Chrome 131.0.0.0,,,24-12-2024 15:02:37,24-12-2024 15:02:40,3.269s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Employee_Salary_Details_1/Page_OrangeHRM/input""), ""Alice Johnson"")",Chrome 131.0.0.0,,,24-12-2024 15:02:40,24-12-2024 15:02:42,2.051s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Salary_Details_1/Page_OrangeHRM/button_Search""))",Chrome 131.0.0.0,,,24-12-2024 15:02:42,24-12-2024 15:02:43,0.464s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Salary_Details_1/Page_OrangeHRM/div_0034008""))",Chrome 131.0.0.0,,,24-12-2024 15:02:43,24-12-2024 15:02:44,1.488s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Salary_Details_1/Page_OrangeHRM/a_Salary""))",Chrome 131.0.0.0,,,24-12-2024 15:02:44,24-12-2024 15:02:47,2.883s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Salary_Details_1/Page_OrangeHRM/button_Add""))",Chrome 131.0.0.0,,,24-12-2024 15:02:47,24-12-2024 15:02:49,1.890s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Employee_Salary_Details_1/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus""), ""CTC"")",Chrome 131.0.0.0,,,24-12-2024 15:02:49,24-12-2024 15:02:50,0.732s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Salary_Details_1/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec""))",Chrome 131.0.0.0,,,24-12-2024 15:02:50,24-12-2024 15:02:50,0.260s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Salary_Details_1/Page_OrangeHRM/div_-- Select --""))",Chrome 131.0.0.0,,,24-12-2024 15:02:50,24-12-2024 15:02:50,0.466s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Salary_Details_1/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1""))",Chrome 131.0.0.0,,,24-12-2024 15:02:50,24-12-2024 15:02:51,0.463s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Employee_Salary_Details_1/Page_OrangeHRM/input_Amount_oxd-input oxd-input--focus""), ""20000"")",Chrome 131.0.0.0,,,24-12-2024 15:02:51,24-12-2024 15:02:52,0.707s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Employee_Salary_Details_1/Page_OrangeHRM/textarea_Comments_oxd-textarea oxd-textarea_6464fb""), ""CTC"")",Chrome 131.0.0.0,,,24-12-2024 15:02:52,24-12-2024 15:02:52,0.717s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Salary_Details_1/Page_OrangeHRM/button_Save""))",Chrome 131.0.0.0,,,24-12-2024 15:02:52,24-12-2024 15:02:53,0.260s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,24-12-2024 15:02:53,24-12-2024 15:02:53,0.126s,PASSED

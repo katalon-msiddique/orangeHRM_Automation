@@ -9,9 +9,9 @@
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>10.0.0</modifiedVersion>
+   <modifiedVersion>10.0.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/mahtabsiddique/git/OrangeHRM_Automation/OrangeHRM_Automation.prj</projectFileLocation>
+   <projectFileLocation>/Users/mahtabsiddique/git/orange/orangeHRM_Automation/OrangeHRM_Automation.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

@@ -19,21 +19,28 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>385fabfe-a897-4b72-88db-9e9822b05ac0</guid>
+      <guid>420196ca-16ea-454f-a929-b50de83c2bd6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Employee_Onboarding/TC_PIM_Employee_Search</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>dce07bf2-947c-4f07-8927-c90e6078d5e9</guid>
+      <guid>410a4ba7-07a4-4a9e-9cf7-63df04ff9fe8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Employee_Onboarding/TC_Employee_Job_Details</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fcb36231-4be3-45cb-86aa-55d3c040e6ab</guid>
+      <guid>ee673f47-009e-4e6f-a4f7-10e44bfef99a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Employee_Onboarding/TC_PIM_Employee_Search</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eea9457b-bbe5-4c7a-b75b-eca77246f042</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Employee_Onboarding/TC_Employee_Salary_Details</testCaseId>

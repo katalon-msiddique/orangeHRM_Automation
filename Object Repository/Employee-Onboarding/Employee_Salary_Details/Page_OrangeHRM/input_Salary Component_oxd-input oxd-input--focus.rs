@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Salary Component_oxd-input oxd-input--focus</name>
    <tag></tag>
-   <elementGuidId>d6f40d4f-a47b-4c8a-bf88-b26161ffdc27</elementGuidId>
+   <elementGuidId>98edb6b0-c453-42a8-9cf8-1533484ea52b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>eb3639d3-a408-4bd9-b606-205ee0c92a5b</webElementGuid>
+      <webElementGuid>57dd053c-dafc-4148-a035-4c75fa58240b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-input oxd-input--focus</value>
-      <webElementGuid>ad90812f-8f97-41b4-a8a7-15e1ec355c49</webElementGuid>
+      <webElementGuid>dcccc7be-ee4a-42da-83ba-b0bf11148cfd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/div[@class=&quot;orangehrm-edit-employee&quot;]/div[@class=&quot;orangehrm-edit-employee-content&quot;]/div[@class=&quot;orangehrm-horizontal-padding orangehrm-vertical-padding&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-3 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/input[@class=&quot;oxd-input oxd-input--focus&quot;]</value>
-      <webElementGuid>ec0e630e-a522-4849-8fb2-d43764bf3e0e</webElementGuid>
+      <webElementGuid>8a702ddf-10a0-4ee5-bc43-b97d5d994068</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div/form/div/div/div/div/div[2]/input</value>
-      <webElementGuid>f0a9c0d1-355b-4dd5-ae16-3a0ddb82f774</webElementGuid>
+      <webElementGuid>e598a474-6df3-4023-acbd-b106aa380491</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +61,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>77c55540-7cc4-4716-9246-4c30c109f52b</webElementGuid>
+      <webElementGuid>0f67b83f-1f47-41d0-abef-1143a6bb779a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

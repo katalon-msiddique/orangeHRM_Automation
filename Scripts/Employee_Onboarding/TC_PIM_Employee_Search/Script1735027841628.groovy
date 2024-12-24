@@ -17,9 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// Click on the "PIM" tab to access the Employee Management section
+WebUI.comment('Step 1: Click on the "PIM" tab to access the Employee Management section')
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM'))
 
+// Set the search text for employee name (e.g., "Alice Johnson") in the search input field
+WebUI.comment('Step 2: Set the employee name "Alice Johnson" in the search input field')
 WebUI.setText(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input'), 'Alice Johnson')
 
+// Click on the "Search" button to search for the employee
+WebUI.comment('Step 3: Click the "Search" button to search for the employee')
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search'))
-

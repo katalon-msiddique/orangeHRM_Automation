@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Salary</name>
    <tag></tag>
-   <elementGuidId>5030d849-cb60-4880-8561-d86cd67ff67d</elementGuidId>
+   <elementGuidId>239c1c48-8f8f-4da6-9d1d-e15a8bba7ec3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>57b7676d-53f9-4dbf-aeb6-342a530903d0</webElementGuid>
+      <webElementGuid>ee3705e9-d3c0-405d-b11f-6c7c02856cc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>orangehrm-tabs-item</value>
-      <webElementGuid>eb173eeb-b74c-434e-ad2d-241ae632d820</webElementGuid>
+      <webElementGuid>2b63e6ee-2932-4b74-a19e-a97aef14a737</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/web/index.php/pim/viewSalaryList/empNumber/35</value>
-      <webElementGuid>21637b03-3517-4a87-9596-65cf8eb9c7c6</webElementGuid>
+      <webElementGuid>4fd86433-948f-4204-9953-8b55ac17d8ff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Salary</value>
-      <webElementGuid>2d9d353f-dd7d-4bd2-a424-8305494b121c</webElementGuid>
+      <webElementGuid>0c4eeaf3-c757-4ab4-9570-2a31476abf2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/div[@class=&quot;orangehrm-edit-employee&quot;]/div[@class=&quot;orangehrm-edit-employee-navigation&quot;]/div[@class=&quot;orangehrm-tabs&quot;]/div[@class=&quot;orangehrm-tabs-wrapper&quot;]/a[@class=&quot;orangehrm-tabs-item&quot;]</value>
-      <webElementGuid>4e38dde1-083c-4c07-a066-49ee15cb6581</webElementGuid>
+      <webElementGuid>ac72f303-2968-4957-b7c8-19f182ceefe8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div/div[2]/div[7]/a</value>
-      <webElementGuid>687332d6-8e9a-4c9c-9bdf-a1b48460fd35</webElementGuid>
+      <webElementGuid>41bf36c2-1fb8-4bed-a655-ec75b4beb59b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Salary')]</value>
-      <webElementGuid>0e30d3d4-443a-4d7f-a39f-a3051be28cc3</webElementGuid>
+      <webElementGuid>94736839-9e8d-42ea-b490-3822d6699cf0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Job'])[1]/following::a[1]</value>
-      <webElementGuid>94c40240-3056-475a-bd00-758e357a6057</webElementGuid>
+      <webElementGuid>b6857ecb-1468-4f85-b217-74d04b50574f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Immigration'])[1]/following::a[2]</value>
-      <webElementGuid>5d8a5024-db67-4065-ba40-701bb3f033e9</webElementGuid>
+      <webElementGuid>36c44445-0fd3-4f9a-a537-319418b33b0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Report-to'])[1]/preceding::a[1]</value>
-      <webElementGuid>3524ed58-ec77-4e8e-b9ae-03cc7d109503</webElementGuid>
+      <webElementGuid>b34b593a-72ac-46a0-817d-e5db79010b26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Qualifications'])[1]/preceding::a[2]</value>
-      <webElementGuid>35ad559b-c882-4b0e-92e4-81c07ccce134</webElementGuid>
+      <webElementGuid>77c182cc-9202-48ba-a83f-3d7ee2e09021</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Salary']/parent::*</value>
-      <webElementGuid>51939bef-2e18-4cb6-a913-3520cc829eae</webElementGuid>
+      <webElementGuid>9dcc50f1-e2ae-4b2e-949c-9d8b0c6d5d24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/web/index.php/pim/viewSalaryList/empNumber/35')]</value>
-      <webElementGuid>ca6a28cf-0815-4563-a4db-7d1cb5310471</webElementGuid>
+      <webElementGuid>42c69646-c921-4802-a577-c76041dc61b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/a</value>
-      <webElementGuid>5e26ec5a-8d64-4541-ad4a-882920bd4899</webElementGuid>
+      <webElementGuid>41401f9b-afef-4b13-90f5-1d291927ff3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +141,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/web/index.php/pim/viewSalaryList/empNumber/35' and (text() = 'Salary' or . = 'Salary')]</value>
-      <webElementGuid>fcb82b85-bb49-4cbc-b529-e2ab64278bbb</webElementGuid>
+      <webElementGuid>0d0fabc7-87c2-42af-9b85-df4d847767b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
