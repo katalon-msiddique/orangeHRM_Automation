@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Salary" time="89.655" tests="3" failures="0" errors="0">
+   <testsuite name="TS_Salary" tests="3" failures="0" errors="0" time="89.655" skipped="0" timestamp="26-12-2024T14:48:56" hostname="mahtabsiddique - localhost" id="Test Suites/Employee_Onboarding/TS_Salary">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/mahtabsiddique/git/orange/orangeHRM_Automation/Reports/20241226_144850/Employee_Onboarding/TS_Salary/20241226_144851"/>
+         <property name="logFiles" value="/Users/mahtabsiddique/git/orange/orangeHRM_Automation/Reports/20241226_144850/Employee_Onboarding/TS_Salary/20241226_144851/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mahtabsiddique - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="f9e48261c3efc8b23b2179185c0800b0"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Employee_Onboarding/Salary_2" time="33.117" classname="Test Cases/Employee_Onboarding/Salary_2" status="PASSED">
+         <system-out><![CDATA[26-12-2024T14:48:56 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/Salary_2: Test Cases/Employee_Onboarding/Salary_2
+
+26-12-2024T14:48:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-12-2024T14:48:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-12-2024T14:48:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-12-2024T14:48:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-12-2024T14:48:58 - [TEST_STEP][PASSED] - navigateToUrl("http://orange.katalon.com/web/index.php/auth/login"): Navigate to 'http://orange.katalon.com/web/index.php/auth/login' successfully
+
+26-12-2024T14:49:10 - [MESSAGE][PASSED] - Navigate to 'http://orange.katalon.com/web/index.php/auth/login' successfully
+
+26-12-2024T14:49:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Username_username"), "mahtab"): Text 'mahtab' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Username_username'
+
+26-12-2024T14:49:11 - [MESSAGE][PASSED] - Text 'mahtab' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Username_username'
+
+26-12-2024T14:49:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Password_password"), "p7egalF197zCPQnMaznrNq5yBULcTkKN"): Text ****** has been set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Password_password'
+
+26-12-2024T14:49:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Password_password'
+
+26-12-2024T14:49:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Password_password'
+
+26-12-2024T14:49:13 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Password_password'
+
+26-12-2024T14:49:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T14:49:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T14:49:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input"), Fullname): Text 'Sandra Barber' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input'
+
+26-12-2024T14:49:18 - [MESSAGE][PASSED] - Text 'Sandra Barber' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input'
+
+26-12-2024T14:49:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Search' is clicked on
+
+26-12-2024T14:49:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Search' is clicked on
+
+26-12-2024T14:49:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/div_0034008")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/div_0034008' is clicked on
+
+26-12-2024T14:49:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/div_0034008' is clicked on
+
+26-12-2024T14:49:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_Salary")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_Salary' is clicked on
+
+26-12-2024T14:49:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_Salary' is clicked on
+
+26-12-2024T14:49:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Add")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Add' is clicked on
+
+26-12-2024T14:49:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Add' is clicked on
+
+26-12-2024T14:49:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus"), Salary_Component): Text 'Basic Pay' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus'
+
+26-12-2024T14:49:26 - [MESSAGE][PASSED] - Text 'Basic Pay' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus'
+
+26-12-2024T14:49:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+26-12-2024T14:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+26-12-2024T14:49:26 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Pay_Grade]), STOP_ON_FAILURE): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T14:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T14:49:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1' is clicked on
+
+26-12-2024T14:49:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1' is clicked on
+
+26-12-2024T14:49:27 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Pay_Frequency]), STOP_ON_FAILURE): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T14:49:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T14:49:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2' is clicked on
+
+26-12-2024T14:49:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2' is clicked on
+
+26-12-2024T14:49:27 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Salary_Currency]), STOP_ON_FAILURE): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T14:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T14:49:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Amount_oxd-input oxd-input--focus"), Amount): Text '951136' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Amount_oxd-input oxd-input--focus'
+
+26-12-2024T14:49:28 - [MESSAGE][PASSED] - Text '951136' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Amount_oxd-input oxd-input--focus'
+
+26-12-2024T14:49:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/textarea_Comments_oxd-textarea oxd-textarea_6464fb"), Salary_Comments): Text 'Salary component: Basic Pay' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/textarea_Comments_oxd-textarea oxd-textarea_6464fb'
+
+26-12-2024T14:49:29 - [MESSAGE][PASSED] - Text 'Salary component: Basic Pay' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/textarea_Comments_oxd-textarea oxd-textarea_6464fb'
+
+26-12-2024T14:49:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Save' is clicked on
+
+26-12-2024T14:49:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Save' is clicked on
+
+26-12-2024T14:49:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-12-2024T14:49:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee_Onboarding/Salary_2" time="30.243" classname="Test Cases/Employee_Onboarding/Salary_2" status="PASSED">
+         <system-out><![CDATA[26-12-2024T14:49:30 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/Salary_2: Test Cases/Employee_Onboarding/Salary_2
+
+26-12-2024T14:49:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-12-2024T14:49:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-12-2024T14:49:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-12-2024T14:49:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-12-2024T14:49:30 - [TEST_STEP][PASSED] - navigateToUrl("http://orange.katalon.com/web/index.php/auth/login"): Navigate to 'http://orange.katalon.com/web/index.php/auth/login' successfully
+
+26-12-2024T14:49:40 - [MESSAGE][PASSED] - Navigate to 'http://orange.katalon.com/web/index.php/auth/login' successfully
+
+26-12-2024T14:49:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Username_username"), "mahtab"): Text 'mahtab' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Username_username'
+
+26-12-2024T14:49:41 - [MESSAGE][PASSED] - Text 'mahtab' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Username_username'
+
+26-12-2024T14:49:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Password_password"), "p7egalF197zCPQnMaznrNq5yBULcTkKN"): Text ****** has been set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Password_password'
+
+26-12-2024T14:49:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Password_password'
+
+26-12-2024T14:49:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Password_password'
+
+26-12-2024T14:49:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Password_password'
+
+26-12-2024T14:49:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T14:49:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T14:49:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input"), Fullname): Text 'Amy Gonzalez' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input'
+
+26-12-2024T14:49:49 - [MESSAGE][PASSED] - Text 'Amy Gonzalez' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input'
+
+26-12-2024T14:49:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Search' is clicked on
+
+26-12-2024T14:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Search' is clicked on
+
+26-12-2024T14:49:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/div_0034008")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/div_0034008' is clicked on
+
+26-12-2024T14:49:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/div_0034008' is clicked on
+
+26-12-2024T14:49:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_Salary")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_Salary' is clicked on
+
+26-12-2024T14:49:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_Salary' is clicked on
+
+26-12-2024T14:49:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Add")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Add' is clicked on
+
+26-12-2024T14:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Add' is clicked on
+
+26-12-2024T14:49:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus"), Salary_Component): Text 'Basic Pay' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus'
+
+26-12-2024T14:49:56 - [MESSAGE][PASSED] - Text 'Basic Pay' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus'
+
+26-12-2024T14:49:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+26-12-2024T14:49:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+26-12-2024T14:49:56 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Pay_Grade]), STOP_ON_FAILURE): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T14:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T14:49:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1' is clicked on
+
+26-12-2024T14:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1' is clicked on
+
+26-12-2024T14:49:57 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Pay_Frequency]), STOP_ON_FAILURE): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T14:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T14:49:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2' is clicked on
+
+26-12-2024T14:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2' is clicked on
+
+26-12-2024T14:49:58 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Salary_Currency]), STOP_ON_FAILURE): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T14:49:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T14:49:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Amount_oxd-input oxd-input--focus"), Amount): Text '112268' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Amount_oxd-input oxd-input--focus'
+
+26-12-2024T14:49:59 - [MESSAGE][PASSED] - Text '112268' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Amount_oxd-input oxd-input--focus'
+
+26-12-2024T14:49:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/textarea_Comments_oxd-textarea oxd-textarea_6464fb"), Salary_Comments): Text 'Salary component: Basic Pay' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/textarea_Comments_oxd-textarea oxd-textarea_6464fb'
+
+26-12-2024T14:49:59 - [MESSAGE][PASSED] - Text 'Salary component: Basic Pay' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/textarea_Comments_oxd-textarea oxd-textarea_6464fb'
+
+26-12-2024T14:49:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Save' is clicked on
+
+26-12-2024T14:50:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Save' is clicked on
+
+26-12-2024T14:50:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-12-2024T14:50:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee_Onboarding/Salary_2" time="26.191" classname="Test Cases/Employee_Onboarding/Salary_2" status="PASSED">
+         <system-out><![CDATA[26-12-2024T14:50:00 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/Salary_2: Test Cases/Employee_Onboarding/Salary_2
+
+26-12-2024T14:50:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-12-2024T14:50:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-12-2024T14:50:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-12-2024T14:50:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-12-2024T14:50:00 - [TEST_STEP][PASSED] - navigateToUrl("http://orange.katalon.com/web/index.php/auth/login"): Navigate to 'http://orange.katalon.com/web/index.php/auth/login' successfully
+
+26-12-2024T14:50:06 - [MESSAGE][PASSED] - Navigate to 'http://orange.katalon.com/web/index.php/auth/login' successfully
+
+26-12-2024T14:50:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Username_username"), "mahtab"): Text 'mahtab' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Username_username'
+
+26-12-2024T14:50:07 - [MESSAGE][PASSED] - Text 'mahtab' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Username_username'
+
+26-12-2024T14:50:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Password_password"), "p7egalF197zCPQnMaznrNq5yBULcTkKN"): Text ****** has been set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Password_password'
+
+26-12-2024T14:50:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Password_password'
+
+26-12-2024T14:50:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Password_password'
+
+26-12-2024T14:50:09 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Password_password'
+
+26-12-2024T14:50:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T14:50:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T14:50:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input"), Fullname): Text 'Richard Johnson' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input'
+
+26-12-2024T14:50:14 - [MESSAGE][PASSED] - Text 'Richard Johnson' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input'
+
+26-12-2024T14:50:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Search' is clicked on
+
+26-12-2024T14:50:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Search' is clicked on
+
+26-12-2024T14:50:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/div_0034008")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/div_0034008' is clicked on
+
+26-12-2024T14:50:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/div_0034008' is clicked on
+
+26-12-2024T14:50:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_Salary")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_Salary' is clicked on
+
+26-12-2024T14:50:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_Salary' is clicked on
+
+26-12-2024T14:50:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Add")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Add' is clicked on
+
+26-12-2024T14:50:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Add' is clicked on
+
+26-12-2024T14:50:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus"), Salary_Component): Text 'Basic Pay' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus'
+
+26-12-2024T14:50:22 - [MESSAGE][PASSED] - Text 'Basic Pay' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus'
+
+26-12-2024T14:50:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+26-12-2024T14:50:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+26-12-2024T14:50:22 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Pay_Grade]), STOP_ON_FAILURE): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T14:50:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T14:50:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1' is clicked on
+
+26-12-2024T14:50:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1' is clicked on
+
+26-12-2024T14:50:23 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Pay_Frequency]), STOP_ON_FAILURE): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T14:50:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T14:50:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2' is clicked on
+
+26-12-2024T14:50:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2' is clicked on
+
+26-12-2024T14:50:24 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Salary_Currency]), STOP_ON_FAILURE): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T14:50:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T14:50:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Amount_oxd-input oxd-input--focus"), Amount): Text '124407' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Amount_oxd-input oxd-input--focus'
+
+26-12-2024T14:50:25 - [MESSAGE][PASSED] - Text '124407' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Amount_oxd-input oxd-input--focus'
+
+26-12-2024T14:50:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/textarea_Comments_oxd-textarea oxd-textarea_6464fb"), Salary_Comments): Text 'Salary component: Basic Pay' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/textarea_Comments_oxd-textarea oxd-textarea_6464fb'
+
+26-12-2024T14:50:26 - [MESSAGE][PASSED] - Text 'Salary component: Basic Pay' is set on object 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/textarea_Comments_oxd-textarea oxd-textarea_6464fb'
+
+26-12-2024T14:50:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Save' is clicked on
+
+26-12-2024T14:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Save' is clicked on
+
+26-12-2024T14:50:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-12-2024T14:50:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-12-2024T14:48:56 - [TEST_SUITE][PASSED] - TS_Salary: Test Cases/Employee_Onboarding/Salary_2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,75 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Salary,Chrome 131.0.0.0,,,26-12-2024 15:01:53,26-12-2024 15:03:13,1m - 20.236s,PASSED
+,,,,,,,
+Test Cases/Employee_Onboarding/TC_Employee_Login,Chrome 131.0.0.0,,,26-12-2024 15:01:53,26-12-2024 15:02:07,14.340s,PASSED
+"comment(""Step 1: Open a new browser instance"")",Chrome 131.0.0.0,,,26-12-2024 15:01:53,26-12-2024 15:01:53,0.031s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,26-12-2024 15:01:53,26-12-2024 15:01:55,1.519s,PASSED
+"comment(""Step 2: Navigate to the OrangeHRM login page"")",Chrome 131.0.0.0,,,26-12-2024 15:01:55,26-12-2024 15:01:55,0.002s,PASSED
+navigateToUrl(URL),Chrome 131.0.0.0,,,26-12-2024 15:01:55,26-12-2024 15:02:04,9.071s,PASSED
+"comment(""Step 3: Enter the username into the username input field"")",Chrome 131.0.0.0,,,26-12-2024 15:02:04,26-12-2024 15:02:04,0.004s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username""), Username)",Chrome 131.0.0.0,,,26-12-2024 15:02:04,26-12-2024 15:02:05,1.517s,PASSED
+"comment(""Step 4: Enter the encrypted password into the password input field"")",Chrome 131.0.0.0,,,26-12-2024 15:02:05,26-12-2024 15:02:05,0.002s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password""), Password)",Chrome 131.0.0.0,,,26-12-2024 15:02:05,26-12-2024 15:02:06,0.274s,PASSED
+"comment(""Step 5: Click the login button to submit the login form"")",Chrome 131.0.0.0,,,26-12-2024 15:02:06,26-12-2024 15:02:06,0.001s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Login""))",Chrome 131.0.0.0,,,26-12-2024 15:02:06,26-12-2024 15:02:07,1.765s,PASSED
+Start tear down : tearDownTestCase,Chrome 131.0.0.0,,,26-12-2024 15:02:07,26-12-2024 15:02:07,0.025s,PASSED
+,,,,,,,
+Test Cases/Employee_Onboarding/Salary_2,Chrome 131.0.0.0,,,26-12-2024 15:02:07,26-12-2024 15:02:32,24.070s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_PIM""))",Chrome 131.0.0.0,,,26-12-2024 15:02:08,26-12-2024 15:02:12,4.346s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input""), Fullname)",Chrome 131.0.0.0,,,26-12-2024 15:02:12,26-12-2024 15:02:14,2.262s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Search""))",Chrome 131.0.0.0,,,26-12-2024 15:02:14,26-12-2024 15:02:15,0.472s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/div_0034008""))",Chrome 131.0.0.0,,,26-12-2024 15:02:15,26-12-2024 15:02:17,2.717s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_Salary""))",Chrome 131.0.0.0,,,26-12-2024 15:02:17,26-12-2024 15:02:22,4.245s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Add""))",Chrome 131.0.0.0,,,26-12-2024 15:02:22,26-12-2024 15:02:24,2.509s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus""), Salary_Component)",Chrome 131.0.0.0,,,26-12-2024 15:02:24,26-12-2024 15:02:25,0.722s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec""))",Chrome 131.0.0.0,,,26-12-2024 15:02:25,26-12-2024 15:02:25,0.042s,PASSED
+"click(findTestObject(""Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown"", [""value"":Pay_Grade]), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,26-12-2024 15:02:25,26-12-2024 15:02:25,0.475s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1""))",Chrome 131.0.0.0,,,26-12-2024 15:02:25,26-12-2024 15:02:26,0.520s,PASSED
+"click(findTestObject(""Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown"", [""value"":Pay_Frequency]), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,26-12-2024 15:02:26,26-12-2024 15:02:26,0.472s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2""))",Chrome 131.0.0.0,,,26-12-2024 15:02:26,26-12-2024 15:02:26,0.036s,PASSED
+"click(findTestObject(""Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown"", [""value"":Salary_Currency]), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,26-12-2024 15:02:26,26-12-2024 15:02:27,0.469s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Amount_oxd-input oxd-input--focus""), Amount)",Chrome 131.0.0.0,,,26-12-2024 15:02:27,26-12-2024 15:02:28,0.716s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/textarea_Comments_oxd-textarea oxd-textarea_6464fb""), Salary_Comments)",Chrome 131.0.0.0,,,26-12-2024 15:02:28,26-12-2024 15:02:28,0.715s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Save""))",Chrome 131.0.0.0,,,26-12-2024 15:02:28,26-12-2024 15:02:29,0.263s,PASSED
+delay(3),Chrome 131.0.0.0,,,26-12-2024 15:02:29,26-12-2024 15:02:32,3.011s,PASSED
+Start tear down : tearDownTestCase,Chrome 131.0.0.0,,,26-12-2024 15:02:32,26-12-2024 15:02:32,0.002s,PASSED
+,,,,,,,
+Test Cases/Employee_Onboarding/Salary_2,Chrome 131.0.0.0,,,26-12-2024 15:02:32,26-12-2024 15:02:52,20.174s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_PIM""))",Chrome 131.0.0.0,,,26-12-2024 15:02:32,26-12-2024 15:02:33,1.337s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input""), Fullname)",Chrome 131.0.0.0,,,26-12-2024 15:02:33,26-12-2024 15:02:35,2.034s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Search""))",Chrome 131.0.0.0,,,26-12-2024 15:02:35,26-12-2024 15:02:35,0.466s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/div_0034008""))",Chrome 131.0.0.0,,,26-12-2024 15:02:35,26-12-2024 15:02:38,2.997s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_Salary""))",Chrome 131.0.0.0,,,26-12-2024 15:02:38,26-12-2024 15:02:42,3.816s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Add""))",Chrome 131.0.0.0,,,26-12-2024 15:02:42,26-12-2024 15:02:44,2.091s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus""), Salary_Component)",Chrome 131.0.0.0,,,26-12-2024 15:02:44,26-12-2024 15:02:45,0.712s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec""))",Chrome 131.0.0.0,,,26-12-2024 15:02:45,26-12-2024 15:02:45,0.033s,PASSED
+"click(findTestObject(""Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown"", [""value"":Pay_Grade]), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,26-12-2024 15:02:45,26-12-2024 15:02:46,0.466s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1""))",Chrome 131.0.0.0,,,26-12-2024 15:02:46,26-12-2024 15:02:46,0.574s,PASSED
+"click(findTestObject(""Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown"", [""value"":Pay_Frequency]), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,26-12-2024 15:02:46,26-12-2024 15:02:47,0.459s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2""))",Chrome 131.0.0.0,,,26-12-2024 15:02:47,26-12-2024 15:02:47,0.033s,PASSED
+"click(findTestObject(""Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown"", [""value"":Salary_Currency]), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,26-12-2024 15:02:47,26-12-2024 15:02:47,0.460s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Amount_oxd-input oxd-input--focus""), Amount)",Chrome 131.0.0.0,,,26-12-2024 15:02:47,26-12-2024 15:02:48,0.703s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/textarea_Comments_oxd-textarea oxd-textarea_6464fb""), Salary_Comments)",Chrome 131.0.0.0,,,26-12-2024 15:02:48,26-12-2024 15:02:48,0.708s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Save""))",Chrome 131.0.0.0,,,26-12-2024 15:02:48,26-12-2024 15:02:49,0.262s,PASSED
+delay(3),Chrome 131.0.0.0,,,26-12-2024 15:02:49,26-12-2024 15:02:52,3.007s,PASSED
+Start tear down : tearDownTestCase,Chrome 131.0.0.0,,,26-12-2024 15:02:52,26-12-2024 15:02:52,0.002s,PASSED
+,,,,,,,
+Test Cases/Employee_Onboarding/Salary_2,Chrome 131.0.0.0,,,26-12-2024 15:02:52,26-12-2024 15:03:13,21.494s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_PIM""))",Chrome 131.0.0.0,,,26-12-2024 15:02:52,26-12-2024 15:02:54,1.980s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input""), Fullname)",Chrome 131.0.0.0,,,26-12-2024 15:02:54,26-12-2024 15:02:56,2.037s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Search""))",Chrome 131.0.0.0,,,26-12-2024 15:02:56,26-12-2024 15:02:56,0.448s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/div_0034008""))",Chrome 131.0.0.0,,,26-12-2024 15:02:56,26-12-2024 15:02:59,2.789s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_Salary""))",Chrome 131.0.0.0,,,26-12-2024 15:02:59,26-12-2024 15:03:03,3.528s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Add""))",Chrome 131.0.0.0,,,26-12-2024 15:03:03,26-12-2024 15:03:06,3.308s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus""), Salary_Component)",Chrome 131.0.0.0,,,26-12-2024 15:03:06,26-12-2024 15:03:07,0.714s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec""))",Chrome 131.0.0.0,,,26-12-2024 15:03:07,26-12-2024 15:03:07,0.033s,PASSED
+"click(findTestObject(""Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown"", [""value"":Pay_Grade]), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,26-12-2024 15:03:07,26-12-2024 15:03:07,0.458s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1""))",Chrome 131.0.0.0,,,26-12-2024 15:03:07,26-12-2024 15:03:08,0.523s,PASSED
+"click(findTestObject(""Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown"", [""value"":Pay_Frequency]), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,26-12-2024 15:03:08,26-12-2024 15:03:08,0.466s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2""))",Chrome 131.0.0.0,,,26-12-2024 15:03:08,26-12-2024 15:03:08,0.032s,PASSED
+"click(findTestObject(""Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown"", [""value"":Salary_Currency]), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,26-12-2024 15:03:08,26-12-2024 15:03:09,0.460s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/input_Amount_oxd-input oxd-input--focus""), Amount)",Chrome 131.0.0.0,,,26-12-2024 15:03:09,26-12-2024 15:03:09,0.712s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/textarea_Comments_oxd-textarea oxd-textarea_6464fb""), Salary_Comments)",Chrome 131.0.0.0,,,26-12-2024 15:03:09,26-12-2024 15:03:10,0.711s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/button_Save""))",Chrome 131.0.0.0,,,26-12-2024 15:03:10,26-12-2024 15:03:10,0.273s,PASSED
+delay(3),Chrome 131.0.0.0,,,26-12-2024 15:03:10,26-12-2024 15:03:13,3.007s,PASSED
+Start tear down : tearDownTestCase,Chrome 131.0.0.0,,,26-12-2024 15:03:13,26-12-2024 15:03:13,0.002s,PASSED

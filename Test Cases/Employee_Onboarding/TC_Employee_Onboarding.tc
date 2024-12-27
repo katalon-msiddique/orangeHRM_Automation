@@ -24,6 +24,12 @@
       <value></value>
       <variableId>70e0e395-baf4-49d1-8980-6779e5da717a</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>046e4acd-b4cd-4c35-a0d6-56e30690daf0</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Alice'</defaultValue>
       <description></description>
@@ -44,5 +50,12 @@
       <id>70e0e395-baf4-49d1-8980-6779e5da717a</id>
       <masked>false</masked>
       <name>EmployeeID</name>
+   </variable>
+   <variable>
+      <defaultValue>'p7egalF197zCPQnMaznrNq5yBULcTkKN'</defaultValue>
+      <description></description>
+      <id>046e4acd-b4cd-4c35-a0d6-56e30690daf0</id>
+      <masked>false</masked>
+      <name>EmployeePassword</name>
    </variable>
 </TestCaseEntity>

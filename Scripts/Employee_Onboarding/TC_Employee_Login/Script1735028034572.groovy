@@ -19,21 +19,26 @@ import org.openqa.selenium.Keys as Keys
 
 // Open the browser
 WebUI.comment('Step 1: Open a new browser instance')
+
 WebUI.openBrowser('')
 
 // Navigate to the login page of OrangeHRM
 WebUI.comment('Step 2: Navigate to the OrangeHRM login page')
-WebUI.navigateToUrl('http://orange.katalon.com/web/index.php/auth/login')
+
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 // Enter the username in the username field
 WebUI.comment('Step 3: Enter the username into the username input field')
-WebUI.setText(findTestObject('Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username'), 'mahtab')
+
+WebUI.setText(findTestObject('Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username'), GlobalVariable.Username)
 
 // Enter the password in the password field (encrypted)
 WebUI.comment('Step 4: Enter the encrypted password into the password input field')
-WebUI.setEncryptedText(findTestObject('Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password'),
-	'p7egalF197zCPQnMaznrNq5yBULcTkKN')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password'), GlobalVariable.Password)
 
 // Click the login button
 WebUI.comment('Step 5: Click the login button to submit the login form')
+
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Login'))
+

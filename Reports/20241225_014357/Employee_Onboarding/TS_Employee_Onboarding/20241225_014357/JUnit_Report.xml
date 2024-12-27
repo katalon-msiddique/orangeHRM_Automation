@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Employee_Onboarding" time="28.056" tests="2" failures="0" errors="0">
+   <testsuite name="TS_Employee_Onboarding" tests="2" failures="0" errors="0" time="28.056" skipped="0" timestamp="25-12-2024T01:44:02" hostname="mahtabsiddique - localhost" id="Test Suites/Employee_Onboarding/TS_Employee_Onboarding">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/mahtabsiddique/git/orange/orangeHRM_Automation/Reports/20241225_014357/Employee_Onboarding/TS_Employee_Onboarding/20241225_014357"/>
+         <property name="logFiles" value="/Users/mahtabsiddique/git/orange/orangeHRM_Automation/Reports/20241225_014357/Employee_Onboarding/TS_Employee_Onboarding/20241225_014357/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mahtabsiddique - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="f193d2a96baf01866811672dd3fe477a"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Login" time="16.057" classname="Test Cases/Employee_Onboarding/TC_Employee_Login" status="PASSED">
+         <system-out><![CDATA[25-12-2024T01:44:02 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/TC_Employee_Login: Test Cases/Employee_Onboarding/TC_Employee_Login
+
+25-12-2024T01:44:02 - [TEST_STEP][PASSED] - comment("Step 1: Open a new browser instance"): Step 1: Open a new browser instance
+
+25-12-2024T01:44:02 - [MESSAGE][INFO] - Step 1: Open a new browser instance
+
+25-12-2024T01:44:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+25-12-2024T01:44:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+25-12-2024T01:44:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+25-12-2024T01:44:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+25-12-2024T01:44:03 - [TEST_STEP][PASSED] - comment("Step 2: Navigate to the OrangeHRM login page"): Step 2: Navigate to the OrangeHRM login page
+
+25-12-2024T01:44:03 - [MESSAGE][INFO] - Step 2: Navigate to the OrangeHRM login page
+
+25-12-2024T01:44:03 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://orange.katalon.com/web/index.php/auth/login' successfully
+
+25-12-2024T01:44:14 - [MESSAGE][PASSED] - Navigate to 'http://orange.katalon.com/web/index.php/auth/login' successfully
+
+25-12-2024T01:44:14 - [TEST_STEP][PASSED] - comment("Step 3: Enter the username into the username input field"): Step 3: Enter the username into the username input field
+
+25-12-2024T01:44:14 - [MESSAGE][INFO] - Step 3: Enter the username into the username input field
+
+25-12-2024T01:44:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username"), Username): Text 'mahtab' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username'
+
+25-12-2024T01:44:16 - [MESSAGE][PASSED] - Text 'mahtab' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username'
+
+25-12-2024T01:44:16 - [TEST_STEP][PASSED] - comment("Step 4: Enter the encrypted password into the password input field"): Step 4: Enter the encrypted password into the password input field
+
+25-12-2024T01:44:16 - [MESSAGE][INFO] - Step 4: Enter the encrypted password into the password input field
+
+25-12-2024T01:44:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password'
+
+25-12-2024T01:44:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password'
+
+25-12-2024T01:44:16 - [TEST_STEP][PASSED] - comment("Step 5: Click the login button to submit the login form"): Step 5: Click the login button to submit the login form
+
+25-12-2024T01:44:16 - [MESSAGE][INFO] - Step 5: Click the login button to submit the login form
+
+25-12-2024T01:44:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Login' is clicked on
+
+25-12-2024T01:44:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Onboarding" time="11.927" classname="Test Cases/Employee_Onboarding/TC_Employee_Onboarding" status="PASSED">
+         <system-out><![CDATA[25-12-2024T01:44:18 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/TC_Employee_Onboarding: Test Cases/Employee_Onboarding/TC_Employee_Onboarding
+
+25-12-2024T01:44:18 - [TEST_STEP][PASSED] - comment("Step 1: Click on the PIM module link"): Step 1: Click on the PIM module link
+
+25-12-2024T01:44:18 - [MESSAGE][INFO] - Step 1: Click on the PIM module link
+
+25-12-2024T01:44:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' is clicked on
+
+25-12-2024T01:44:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' is clicked on
+
+25-12-2024T01:44:21 - [TEST_STEP][PASSED] - comment("Step 2: Click the "Add" button to add a new employee"): Step 2: Click the "Add" button to add a new employee
+
+25-12-2024T01:44:21 - [MESSAGE][INFO] - Step 2: Click the "Add" button to add a new employee
+
+25-12-2024T01:44:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Add")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Add' is clicked on
+
+25-12-2024T01:44:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Add' is clicked on
+
+25-12-2024T01:44:23 - [TEST_STEP][PASSED] - comment("Step 3: Focus on the "First Name" input field"): Step 3: Focus on the "First Name" input field
+
+25-12-2024T01:44:23 - [MESSAGE][INFO] - Step 3: Focus on the "First Name" input field
+
+25-12-2024T01:44:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName' is clicked on
+
+25-12-2024T01:44:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName' is clicked on
+
+25-12-2024T01:44:25 - [TEST_STEP][PASSED] - comment("Step 4: Enter the employee's first name"): Step 4: Enter the employee's first name
+
+25-12-2024T01:44:25 - [MESSAGE][INFO] - Step 4: Enter the employee's first name
+
+25-12-2024T01:44:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName"), Firstname): Text 'Sandra' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName'
+
+25-12-2024T01:44:25 - [MESSAGE][PASSED] - Text 'Sandra' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName'
+
+25-12-2024T01:44:26 - [TEST_STEP][PASSED] - comment("Step 5: Enter the employee's last name"): Step 5: Enter the employee's last name
+
+25-12-2024T01:44:26 - [MESSAGE][INFO] - Step 5: Enter the employee's last name
+
+25-12-2024T01:44:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName"), Lastname): Text 'Barber' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName'
+
+25-12-2024T01:44:26 - [MESSAGE][PASSED] - Text 'Barber' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName'
+
+25-12-2024T01:44:26 - [TEST_STEP][PASSED] - comment("Step 6: Clear the default value in the "Employee ID" field"): Step 6: Clear the default value in the "Employee ID" field
+
+25-12-2024T01:44:26 - [MESSAGE][INFO] - Step 6: Clear the default value in the "Employee ID" field
+
+25-12-2024T01:44:26 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus")): Text of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus' is cleared
+
+25-12-2024T01:44:26 - [MESSAGE][PASSED] - Text of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus' is cleared
+
+25-12-2024T01:44:26 - [TEST_STEP][PASSED] - comment("Step 7: Set the employee ID field with a new value"): Step 7: Set the employee ID field with a new value
+
+25-12-2024T01:44:26 - [MESSAGE][INFO] - Step 7: Set the employee ID field with a new value
+
+25-12-2024T01:44:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus"), ""): Text '' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus'
+
+25-12-2024T01:44:27 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus'
+
+25-12-2024T01:44:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus"), EmployeeID): Text '10001' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus'
+
+25-12-2024T01:44:27 - [MESSAGE][PASSED] - Text '10001' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus'
+
+25-12-2024T01:44:27 - [TEST_STEP][PASSED] - comment("Step 8: Toggle the switch related to the Employee ID"): Step 8: Toggle the switch related to the Employee ID
+
+25-12-2024T01:44:27 - [MESSAGE][INFO] - Step 8: Toggle the switch related to the Employee ID
+
+25-12-2024T01:44:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/span_Employee Id_oxd-switch-input oxd-switc_efe210")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/span_Employee Id_oxd-switch-input oxd-switc_efe210' is clicked on
+
+25-12-2024T01:44:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/span_Employee Id_oxd-switch-input oxd-switc_efe210' is clicked on
+
+25-12-2024T01:44:28 - [TEST_STEP][PASSED] - comment("Step 9: Retrieve the entered first name and convert it to lowercase"): Step 9: Retrieve the entered first name and convert it to lowercase
+
+25-12-2024T01:44:28 - [MESSAGE][INFO] - Step 9: Retrieve the entered first name and convert it to lowercase
+
+25-12-2024T01:44:28 - [TEST_STEP][PASSED] - firstname = getAttribute(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName"), "value").toLowerCase(): Attribute 'value' of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName' is: 'Sandra'
+
+25-12-2024T01:44:28 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName' is: 'Sandra'
+
+25-12-2024T01:44:28 - [TEST_STEP][PASSED] - comment("Step 10: Retrieve the entered last name and convert it to lowercase"): Step 10: Retrieve the entered last name and convert it to lowercase
+
+25-12-2024T01:44:28 - [MESSAGE][INFO] - Step 10: Retrieve the entered last name and convert it to lowercase
+
+25-12-2024T01:44:28 - [TEST_STEP][PASSED] - lastname = getAttribute(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName"), "value").toLowerCase(): Attribute 'value' of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName' is: 'Barber'
+
+25-12-2024T01:44:28 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName' is: 'Barber'
+
+25-12-2024T01:44:28 - [TEST_STEP][PASSED] - comment("Step 11: Concatenate the first and last names to generate a username"): Step 11: Concatenate the first and last names to generate a username
+
+25-12-2024T01:44:28 - [MESSAGE][INFO] - Step 11: Concatenate the first and last names to generate a username
+
+25-12-2024T01:44:28 - [TEST_STEP][PASSED] - username = firstname + "." + lastname: null
+
+25-12-2024T01:44:28 - [TEST_STEP][PASSED] - comment("Step 12: Set the username field with the generated username"): Step 12: Set the username field with the generated username
+
+25-12-2024T01:44:28 - [MESSAGE][INFO] - Step 12: Set the username field with the generated username
+
+25-12-2024T01:44:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus"), username): Text 'sandra.barber' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'
+
+25-12-2024T01:44:29 - [MESSAGE][PASSED] - Text 'sandra.barber' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'
+
+25-12-2024T01:44:29 - [TEST_STEP][PASSED] - comment("Step 13: Enter an encrypted password into the password field"): Step 13: Enter an encrypted password into the password field
+
+25-12-2024T01:44:29 - [MESSAGE][INFO] - Step 13: Enter an encrypted password into the password field
+
+25-12-2024T01:44:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_oxd-input oxd-input--active"), "p7egalF197zCPQnMaznrNq5yBULcTkKN"): Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_oxd-input oxd-input--active'
+
+25-12-2024T01:44:29 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_oxd-input oxd-input--active'
+
+25-12-2024T01:44:29 - [TEST_STEP][PASSED] - comment("Step 14: Enter an encrypted password into the confirm password field"): Step 14: Enter an encrypted password into the confirm password field
+
+25-12-2024T01:44:29 - [MESSAGE][INFO] - Step 14: Enter an encrypted password into the confirm password field
+
+25-12-2024T01:44:29 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Confirm Password_oxd-input oxd-input-_a3aecb"), "p7egalF197zCPQnMaznrNq5yBULcTkKN"): Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Confirm Password_oxd-input oxd-input-_a3aecb'
+
+25-12-2024T01:44:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Confirm Password_oxd-input oxd-input-_a3aecb'
+
+25-12-2024T01:44:30 - [TEST_STEP][PASSED] - comment("Step 15: Click the "Save" button to finalize adding the new employee"): Step 15: Click the "Save" button to finalize adding the new employee
+
+25-12-2024T01:44:30 - [MESSAGE][INFO] - Step 15: Click the "Save" button to finalize adding the new employee
+
+25-12-2024T01:44:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Save' is clicked on
+
+25-12-2024T01:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[25-12-2024T01:44:02 - [TEST_SUITE][PASSED] - TS_Employee_Onboarding: Test Cases/Employee_Onboarding/TC_Employee_Onboarding]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

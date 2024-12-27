@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Add",
+      "brokenLocator": "(//button[@type\u003d\u0027button\u0027])[5]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Add\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241226_151337/Employee_Onboarding/TS_Employee_Onboarding/20241226_151338/Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Add_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div/div[2]/div/div[2]/div/div/div[2]/input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241226_151337/Employee_Onboarding/TS_Employee_Onboarding/20241226_151338/Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus_position.png"
+    }
+  ]
+}

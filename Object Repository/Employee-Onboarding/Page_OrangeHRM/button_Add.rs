@@ -6,12 +6,12 @@
    <elementGuidId>01a19115-d0e5-4ae3-86f1-cae4a85e1275</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.orangehrm-header-container > button.oxd-button.oxd-button--medium.oxd-button--secondary</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Add']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[5]</value>
+         <key>CSS</key>
+         <value>div.orangehrm-header-container > button.oxd-button.oxd-button--medium.oxd-button--secondary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

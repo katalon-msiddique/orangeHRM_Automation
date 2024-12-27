@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Salary,Chrome 131.0.0.0,,,26-12-2024 14:58:13,26-12-2024 14:58:29,16.398s,FAILED
+,,,,,,,
+Test Cases/Employee_Onboarding/TC_Employee_Login,Chrome 131.0.0.0,,,26-12-2024 14:58:13,26-12-2024 14:58:29,16.038s,PASSED
+"comment(""Step 1: Open a new browser instance"")",Chrome 131.0.0.0,,,26-12-2024 14:58:13,26-12-2024 14:58:13,0.022s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,26-12-2024 14:58:13,26-12-2024 14:58:14,1.455s,PASSED
+"comment(""Step 2: Navigate to the OrangeHRM login page"")",Chrome 131.0.0.0,,,26-12-2024 14:58:14,26-12-2024 14:58:14,0.002s,PASSED
+navigateToUrl(URL),Chrome 131.0.0.0,,,26-12-2024 14:58:14,26-12-2024 14:58:25,11.086s,PASSED
+"comment(""Step 3: Enter the username into the username input field"")",Chrome 131.0.0.0,,,26-12-2024 14:58:25,26-12-2024 14:58:25,0.003s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username""), Username)",Chrome 131.0.0.0,,,26-12-2024 14:58:25,26-12-2024 14:58:27,1.533s,PASSED
+"comment(""Step 4: Enter the encrypted password into the password input field"")",Chrome 131.0.0.0,,,26-12-2024 14:58:27,26-12-2024 14:58:27,0.002s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password""), Password)",Chrome 131.0.0.0,,,26-12-2024 14:58:27,26-12-2024 14:58:27,0.263s,PASSED
+"comment(""Step 5: Click the login button to submit the login form"")",Chrome 131.0.0.0,,,26-12-2024 14:58:27,26-12-2024 14:58:27,0.001s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Login""))",Chrome 131.0.0.0,,,26-12-2024 14:58:27,26-12-2024 14:58:29,1.448s,PASSED
+Start tear down : tearDownTestCase,Chrome 131.0.0.0,,,26-12-2024 14:58:29,26-12-2024 14:58:29,0.143s,PASSED
+,,,,,,,
+Test Cases/Employee_Onboarding/Salary_2,Chrome 131.0.0.0,,,26-12-2024 14:58:29,26-12-2024 14:58:29,0.020s,FAILED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_PIM""))",Chrome 131.0.0.0,,,26-12-2024 14:58:29,26-12-2024 14:58:29,0.008s,FAILED
+Start tear down : tearDownTestCase,Chrome 131.0.0.0,,,26-12-2024 14:58:29,26-12-2024 14:58:29,0.002s,PASSED
+,,,,,,,
+Test Cases/Employee_Onboarding/Salary_2,Chrome 131.0.0.0,,,26-12-2024 14:58:29,26-12-2024 14:58:29,0.014s,FAILED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_PIM""))",Chrome 131.0.0.0,,,26-12-2024 14:58:29,26-12-2024 14:58:29,0.005s,FAILED
+Start tear down : tearDownTestCase,Chrome 131.0.0.0,,,26-12-2024 14:58:29,26-12-2024 14:58:29,0.001s,PASSED
+,,,,,,,
+Test Cases/Employee_Onboarding/Salary_2,Chrome 131.0.0.0,,,26-12-2024 14:58:29,26-12-2024 14:58:29,0.014s,FAILED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Salary_2/Page_OrangeHRM/a_PIM""))",Chrome 131.0.0.0,,,26-12-2024 14:58:29,26-12-2024 14:58:29,0.005s,FAILED
+Start tear down : tearDownTestCase,Chrome 131.0.0.0,,,26-12-2024 14:58:29,26-12-2024 14:58:29,0.002s,PASSED

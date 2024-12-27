@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Employee_Contact_Details" time="122.623" tests="6" failures="0" errors="0">
+   <testsuite name="TS_Employee_Contact_Details" tests="6" failures="0" errors="0" time="122.623" skipped="0" timestamp="27-12-2024T09:21:15" hostname="mahtabsiddique - localhost" id="Test Suites/Employee_Onboarding/TS_Employee_Contact_Details">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/mahtabsiddique/git/orange/orangeHRM_Automation/Reports/20241227_092110/Employee_Onboarding/TS_Employee_Contact_Details/20241227_092110"/>
+         <property name="logFiles" value="/Users/mahtabsiddique/git/orange/orangeHRM_Automation/Reports/20241227_092110/Employee_Onboarding/TS_Employee_Contact_Details/20241227_092110/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mahtabsiddique - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="220e43766785c5d752e333fc7b379251"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Login" time="30.822" classname="Test Cases/Employee_Onboarding/TC_Employee_Login" status="PASSED">
+         <system-out><![CDATA[27-12-2024T09:21:15 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/TC_Employee_Login: Test Cases/Employee_Onboarding/TC_Employee_Login
+
+27-12-2024T09:21:15 - [TEST_STEP][PASSED] - comment("Step 1: Open a new browser instance"): Step 1: Open a new browser instance
+
+27-12-2024T09:21:15 - [MESSAGE][INFO] - Step 1: Open a new browser instance
+
+27-12-2024T09:21:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-12-2024T09:21:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-12-2024T09:21:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-12-2024T09:21:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-12-2024T09:21:17 - [TEST_STEP][PASSED] - comment("Step 2: Navigate to the OrangeHRM login page"): Step 2: Navigate to the OrangeHRM login page
+
+27-12-2024T09:21:17 - [MESSAGE][INFO] - Step 2: Navigate to the OrangeHRM login page
+
+27-12-2024T09:21:17 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://orange.katalon.com/web/index.php/auth/login' successfully
+
+27-12-2024T09:21:42 - [MESSAGE][PASSED] - Navigate to 'http://orange.katalon.com/web/index.php/auth/login' successfully
+
+27-12-2024T09:21:42 - [TEST_STEP][PASSED] - comment("Step 3: Enter the username into the username input field"): Step 3: Enter the username into the username input field
+
+27-12-2024T09:21:42 - [MESSAGE][INFO] - Step 3: Enter the username into the username input field
+
+27-12-2024T09:21:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username"), Username): Text 'mahtab' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username'
+
+27-12-2024T09:21:44 - [MESSAGE][PASSED] - Text 'mahtab' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username'
+
+27-12-2024T09:21:44 - [TEST_STEP][PASSED] - comment("Step 4: Enter the encrypted password into the password input field"): Step 4: Enter the encrypted password into the password input field
+
+27-12-2024T09:21:44 - [MESSAGE][INFO] - Step 4: Enter the encrypted password into the password input field
+
+27-12-2024T09:21:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password'
+
+27-12-2024T09:21:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password'
+
+27-12-2024T09:21:44 - [TEST_STEP][PASSED] - comment("Step 5: Click the login button to submit the login form"): Step 5: Click the login button to submit the login form
+
+27-12-2024T09:21:44 - [MESSAGE][INFO] - Step 5: Click the login button to submit the login form
+
+27-12-2024T09:21:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Login' is clicked on
+
+27-12-2024T09:21:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Contact_Details" time="19.576" classname="Test Cases/Employee_Onboarding/TC_Employee_Contact_Details" status="PASSED">
+         <system-out><![CDATA[27-12-2024T09:21:46 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/TC_Employee_Contact_Details: Test Cases/Employee_Onboarding/TC_Employee_Contact_Details
+
+27-12-2024T09:21:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_PIM' is clicked on
+
+27-12-2024T09:21:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_PIM' is clicked on
+
+27-12-2024T09:21:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input"), Fullname): Text 'Sandra Barber' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input'
+
+27-12-2024T09:21:51 - [MESSAGE][PASSED] - Text 'Sandra Barber' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input'
+
+27-12-2024T09:21:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Search' is clicked on
+
+27-12-2024T09:21:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Search' is clicked on
+
+27-12-2024T09:21:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/div_Actions_oxd-table-cell oxd-padding-cell")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/div_Actions_oxd-table-cell oxd-padding-cell' is clicked on
+
+27-12-2024T09:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/div_Actions_oxd-table-cell oxd-padding-cell' is clicked on
+
+27-12-2024T09:21:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_Contact Details")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_Contact Details' is clicked on
+
+27-12-2024T09:21:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_Contact Details' is clicked on
+
+27-12-2024T09:21:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 1_oxd-input oxd-input--focus"), Street1): Text '840 Perry Wells' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 1_oxd-input oxd-input--focus'
+
+27-12-2024T09:21:58 - [MESSAGE][PASSED] - Text '840 Perry Wells' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 1_oxd-input oxd-input--focus'
+
+27-12-2024T09:21:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 2_oxd-input oxd-input--active"), Street2): Text 'Apt. 532' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 2_oxd-input oxd-input--active'
+
+27-12-2024T09:21:59 - [MESSAGE][PASSED] - Text 'Apt. 532' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 2_oxd-input oxd-input--active'
+
+27-12-2024T09:21:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_City_oxd-input oxd-input--active"), City): Text 'Youngfurt' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_City_oxd-input oxd-input--active'
+
+27-12-2024T09:21:59 - [MESSAGE][PASSED] - Text 'Youngfurt' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_City_oxd-input oxd-input--active'
+
+27-12-2024T09:21:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_StateProvince_oxd-input oxd-input--active"), State): Text 'Louisiana' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_StateProvince_oxd-input oxd-input--active'
+
+27-12-2024T09:22:00 - [MESSAGE][PASSED] - Text 'Louisiana' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_StateProvince_oxd-input oxd-input--active'
+
+27-12-2024T09:22:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active"), ZipCode): Text '85663' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active'
+
+27-12-2024T09:22:00 - [MESSAGE][PASSED] - Text '85663' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active'
+
+27-12-2024T09:22:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+27-12-2024T09:22:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+27-12-2024T09:22:00 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Country])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+27-12-2024T09:22:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+27-12-2024T09:22:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Home_oxd-input oxd-input--focus"), Tel_Home): Text '554-574-3265' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Home_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:02 - [MESSAGE][PASSED] - Text '554-574-3265' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Home_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Mobile_oxd-input oxd-input--focus"), Tell_Mobile): Text '001-885-218-5373' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Mobile_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:02 - [MESSAGE][PASSED] - Text '001-885-218-5373' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Mobile_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work_oxd-input oxd-input--focus"), Tel_Work): Text '001-251-870-9214' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:03 - [MESSAGE][PASSED] - Text '001-251-870-9214' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work Email_oxd-input oxd-input--active"), Email_Work): Text 'sandra.barber@fletcher.com' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work Email_oxd-input oxd-input--active'
+
+27-12-2024T09:22:03 - [MESSAGE][PASSED] - Text 'sandra.barber@fletcher.com' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work Email_oxd-input oxd-input--active'
+
+27-12-2024T09:22:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Other Email_oxd-input oxd-input--focu_8ec2d9"), Email_Other): Text 'sandra.barber@fakemailzone.com' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Other Email_oxd-input oxd-input--focu_8ec2d9'
+
+27-12-2024T09:22:05 - [MESSAGE][PASSED] - Text 'sandra.barber@fakemailzone.com' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Other Email_oxd-input oxd-input--focu_8ec2d9'
+
+27-12-2024T09:22:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Save' is clicked on
+
+27-12-2024T09:22:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Contact_Details" time="16.919" classname="Test Cases/Employee_Onboarding/TC_Employee_Contact_Details" status="PASSED">
+         <system-out><![CDATA[27-12-2024T09:22:05 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/TC_Employee_Contact_Details: Test Cases/Employee_Onboarding/TC_Employee_Contact_Details
+
+27-12-2024T09:22:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_PIM' is clicked on
+
+27-12-2024T09:22:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_PIM' is clicked on
+
+27-12-2024T09:22:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input"), Fullname): Text 'Amy Gonzalez' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input'
+
+27-12-2024T09:22:08 - [MESSAGE][PASSED] - Text 'Amy Gonzalez' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input'
+
+27-12-2024T09:22:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Search' is clicked on
+
+27-12-2024T09:22:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Search' is clicked on
+
+27-12-2024T09:22:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/div_Actions_oxd-table-cell oxd-padding-cell")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/div_Actions_oxd-table-cell oxd-padding-cell' is clicked on
+
+27-12-2024T09:22:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/div_Actions_oxd-table-cell oxd-padding-cell' is clicked on
+
+27-12-2024T09:22:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_Contact Details")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_Contact Details' is clicked on
+
+27-12-2024T09:22:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_Contact Details' is clicked on
+
+27-12-2024T09:22:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 1_oxd-input oxd-input--focus"), Street1): Text '7052 Malone Mount Apt. 540' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 1_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:15 - [MESSAGE][PASSED] - Text '7052 Malone Mount Apt. 540' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 1_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 2_oxd-input oxd-input--active"), Street2): Text 'Apt. 544' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 2_oxd-input oxd-input--active'
+
+27-12-2024T09:22:16 - [MESSAGE][PASSED] - Text 'Apt. 544' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 2_oxd-input oxd-input--active'
+
+27-12-2024T09:22:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_City_oxd-input oxd-input--active"), City): Text 'Contrerasburgh' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_City_oxd-input oxd-input--active'
+
+27-12-2024T09:22:16 - [MESSAGE][PASSED] - Text 'Contrerasburgh' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_City_oxd-input oxd-input--active'
+
+27-12-2024T09:22:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_StateProvince_oxd-input oxd-input--active"), State): Text 'Wyoming' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_StateProvince_oxd-input oxd-input--active'
+
+27-12-2024T09:22:17 - [MESSAGE][PASSED] - Text 'Wyoming' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_StateProvince_oxd-input oxd-input--active'
+
+27-12-2024T09:22:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active"), ZipCode): Text '88444' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active'
+
+27-12-2024T09:22:17 - [MESSAGE][PASSED] - Text '88444' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active'
+
+27-12-2024T09:22:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+27-12-2024T09:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+27-12-2024T09:22:18 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Country])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+27-12-2024T09:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+27-12-2024T09:22:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Home_oxd-input oxd-input--focus"), Tel_Home): Text '223-267-1809' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Home_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:19 - [MESSAGE][PASSED] - Text '223-267-1809' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Home_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Mobile_oxd-input oxd-input--focus"), Tell_Mobile): Text '625-539-8531' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Mobile_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:19 - [MESSAGE][PASSED] - Text '625-539-8531' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Mobile_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work_oxd-input oxd-input--focus"), Tel_Work): Text '(812)220-0594' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:20 - [MESSAGE][PASSED] - Text '(812)220-0594' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work Email_oxd-input oxd-input--active"), Email_Work): Text 'amy.gonzalez@martinez.biz' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work Email_oxd-input oxd-input--active'
+
+27-12-2024T09:22:20 - [MESSAGE][PASSED] - Text 'amy.gonzalez@martinez.biz' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work Email_oxd-input oxd-input--active'
+
+27-12-2024T09:22:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Other Email_oxd-input oxd-input--focu_8ec2d9"), Email_Other): Text 'amy.gonzalez@dummydomains.net' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Other Email_oxd-input oxd-input--focu_8ec2d9'
+
+27-12-2024T09:22:22 - [MESSAGE][PASSED] - Text 'amy.gonzalez@dummydomains.net' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Other Email_oxd-input oxd-input--focu_8ec2d9'
+
+27-12-2024T09:22:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Save' is clicked on
+
+27-12-2024T09:22:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Contact_Details" time="19.177" classname="Test Cases/Employee_Onboarding/TC_Employee_Contact_Details" status="PASSED">
+         <system-out><![CDATA[27-12-2024T09:22:22 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/TC_Employee_Contact_Details: Test Cases/Employee_Onboarding/TC_Employee_Contact_Details
+
+27-12-2024T09:22:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_PIM' is clicked on
+
+27-12-2024T09:22:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_PIM' is clicked on
+
+27-12-2024T09:22:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input"), Fullname): Text 'Richard Johnson' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input'
+
+27-12-2024T09:22:26 - [MESSAGE][PASSED] - Text 'Richard Johnson' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input'
+
+27-12-2024T09:22:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Search' is clicked on
+
+27-12-2024T09:22:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Search' is clicked on
+
+27-12-2024T09:22:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/div_Actions_oxd-table-cell oxd-padding-cell")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/div_Actions_oxd-table-cell oxd-padding-cell' is clicked on
+
+27-12-2024T09:22:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/div_Actions_oxd-table-cell oxd-padding-cell' is clicked on
+
+27-12-2024T09:22:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_Contact Details")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_Contact Details' is clicked on
+
+27-12-2024T09:22:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_Contact Details' is clicked on
+
+27-12-2024T09:22:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 1_oxd-input oxd-input--focus"), Street1): Text '221 Michael Shores Suite 702' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 1_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:34 - [MESSAGE][PASSED] - Text '221 Michael Shores Suite 702' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 1_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 2_oxd-input oxd-input--active"), Street2): Text 'Suite 302' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 2_oxd-input oxd-input--active'
+
+27-12-2024T09:22:35 - [MESSAGE][PASSED] - Text 'Suite 302' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 2_oxd-input oxd-input--active'
+
+27-12-2024T09:22:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_City_oxd-input oxd-input--active"), City): Text 'Julieport' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_City_oxd-input oxd-input--active'
+
+27-12-2024T09:22:35 - [MESSAGE][PASSED] - Text 'Julieport' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_City_oxd-input oxd-input--active'
+
+27-12-2024T09:22:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_StateProvince_oxd-input oxd-input--active"), State): Text 'Virginia' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_StateProvince_oxd-input oxd-input--active'
+
+27-12-2024T09:22:36 - [MESSAGE][PASSED] - Text 'Virginia' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_StateProvince_oxd-input oxd-input--active'
+
+27-12-2024T09:22:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active"), ZipCode): Text '43106' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active'
+
+27-12-2024T09:22:36 - [MESSAGE][PASSED] - Text '43106' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active'
+
+27-12-2024T09:22:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+27-12-2024T09:22:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+27-12-2024T09:22:37 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Country])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+27-12-2024T09:22:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+27-12-2024T09:22:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Home_oxd-input oxd-input--focus"), Tel_Home): Text '801-949-0121' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Home_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:38 - [MESSAGE][PASSED] - Text '801-949-0121' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Home_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Mobile_oxd-input oxd-input--focus"), Tell_Mobile): Text '625-539-8531' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Mobile_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:38 - [MESSAGE][PASSED] - Text '625-539-8531' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Mobile_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work_oxd-input oxd-input--focus"), Tel_Work): Text '(469)643-2642' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:39 - [MESSAGE][PASSED] - Text '(469)643-2642' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work Email_oxd-input oxd-input--active"), Email_Work): Text 'richard.johnson@wheeler.com' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work Email_oxd-input oxd-input--active'
+
+27-12-2024T09:22:39 - [MESSAGE][PASSED] - Text 'richard.johnson@wheeler.com' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work Email_oxd-input oxd-input--active'
+
+27-12-2024T09:22:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Other Email_oxd-input oxd-input--focu_8ec2d9"), Email_Other): Text 'richard.johnson@mockinbox.co' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Other Email_oxd-input oxd-input--focu_8ec2d9'
+
+27-12-2024T09:22:41 - [MESSAGE][PASSED] - Text 'richard.johnson@mockinbox.co' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Other Email_oxd-input oxd-input--focu_8ec2d9'
+
+27-12-2024T09:22:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Save' is clicked on
+
+27-12-2024T09:22:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Contact_Details" time="18.454" classname="Test Cases/Employee_Onboarding/TC_Employee_Contact_Details" status="PASSED">
+         <system-out><![CDATA[27-12-2024T09:22:41 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/TC_Employee_Contact_Details: Test Cases/Employee_Onboarding/TC_Employee_Contact_Details
+
+27-12-2024T09:22:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_PIM' is clicked on
+
+27-12-2024T09:22:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_PIM' is clicked on
+
+27-12-2024T09:22:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input"), Fullname): Text 'Jerry Arellano' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input'
+
+27-12-2024T09:22:45 - [MESSAGE][PASSED] - Text 'Jerry Arellano' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input'
+
+27-12-2024T09:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Search' is clicked on
+
+27-12-2024T09:22:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Search' is clicked on
+
+27-12-2024T09:22:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/div_Actions_oxd-table-cell oxd-padding-cell")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/div_Actions_oxd-table-cell oxd-padding-cell' is clicked on
+
+27-12-2024T09:22:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/div_Actions_oxd-table-cell oxd-padding-cell' is clicked on
+
+27-12-2024T09:22:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_Contact Details")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_Contact Details' is clicked on
+
+27-12-2024T09:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_Contact Details' is clicked on
+
+27-12-2024T09:22:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 1_oxd-input oxd-input--focus"), Street1): Text '2390 Wells Stream Suite 849' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 1_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:53 - [MESSAGE][PASSED] - Text '2390 Wells Stream Suite 849' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 1_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 2_oxd-input oxd-input--active"), Street2): Text 'Suite 668' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 2_oxd-input oxd-input--active'
+
+27-12-2024T09:22:53 - [MESSAGE][PASSED] - Text 'Suite 668' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 2_oxd-input oxd-input--active'
+
+27-12-2024T09:22:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_City_oxd-input oxd-input--active"), City): Text 'Port Scottmouth' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_City_oxd-input oxd-input--active'
+
+27-12-2024T09:22:54 - [MESSAGE][PASSED] - Text 'Port Scottmouth' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_City_oxd-input oxd-input--active'
+
+27-12-2024T09:22:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_StateProvince_oxd-input oxd-input--active"), State): Text 'South Dakota' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_StateProvince_oxd-input oxd-input--active'
+
+27-12-2024T09:22:54 - [MESSAGE][PASSED] - Text 'South Dakota' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_StateProvince_oxd-input oxd-input--active'
+
+27-12-2024T09:22:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active"), ZipCode): Text '70445' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active'
+
+27-12-2024T09:22:55 - [MESSAGE][PASSED] - Text '70445' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active'
+
+27-12-2024T09:22:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+27-12-2024T09:22:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+27-12-2024T09:22:55 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Country])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+27-12-2024T09:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+27-12-2024T09:22:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Home_oxd-input oxd-input--focus"), Tel_Home): Text '940-836-8056' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Home_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:56 - [MESSAGE][PASSED] - Text '940-836-8056' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Home_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Mobile_oxd-input oxd-input--focus"), Tell_Mobile): Text '001-269-534-4250' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Mobile_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:57 - [MESSAGE][PASSED] - Text '001-269-534-4250' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Mobile_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work_oxd-input oxd-input--focus"), Tel_Work): Text '001-382-493-3795' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:57 - [MESSAGE][PASSED] - Text '001-382-493-3795' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work_oxd-input oxd-input--focus'
+
+27-12-2024T09:22:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work Email_oxd-input oxd-input--active"), Email_Work): Text 'jerry.arellano@davis.com' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work Email_oxd-input oxd-input--active'
+
+27-12-2024T09:22:58 - [MESSAGE][PASSED] - Text 'jerry.arellano@davis.com' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work Email_oxd-input oxd-input--active'
+
+27-12-2024T09:22:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Other Email_oxd-input oxd-input--focu_8ec2d9"), Email_Other): Text 'jerry.arellano@tempmailhub.org' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Other Email_oxd-input oxd-input--focu_8ec2d9'
+
+27-12-2024T09:22:59 - [MESSAGE][PASSED] - Text 'jerry.arellano@tempmailhub.org' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Other Email_oxd-input oxd-input--focu_8ec2d9'
+
+27-12-2024T09:22:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Save' is clicked on
+
+27-12-2024T09:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Contact_Details" time="17.392" classname="Test Cases/Employee_Onboarding/TC_Employee_Contact_Details" status="PASSED">
+         <system-out><![CDATA[27-12-2024T09:23:00 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/TC_Employee_Contact_Details: Test Cases/Employee_Onboarding/TC_Employee_Contact_Details
+
+27-12-2024T09:23:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_PIM' is clicked on
+
+27-12-2024T09:23:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_PIM' is clicked on
+
+27-12-2024T09:23:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input"), Fullname): Text 'Janice James' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input'
+
+27-12-2024T09:23:03 - [MESSAGE][PASSED] - Text 'Janice James' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input'
+
+27-12-2024T09:23:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Search' is clicked on
+
+27-12-2024T09:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Search' is clicked on
+
+27-12-2024T09:23:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/div_Actions_oxd-table-cell oxd-padding-cell")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/div_Actions_oxd-table-cell oxd-padding-cell' is clicked on
+
+27-12-2024T09:23:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/div_Actions_oxd-table-cell oxd-padding-cell' is clicked on
+
+27-12-2024T09:23:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_Contact Details")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_Contact Details' is clicked on
+
+27-12-2024T09:23:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/a_Contact Details' is clicked on
+
+27-12-2024T09:23:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 1_oxd-input oxd-input--focus"), Street1): Text '527 Tina Mills Suite 255' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 1_oxd-input oxd-input--focus'
+
+27-12-2024T09:23:10 - [MESSAGE][PASSED] - Text '527 Tina Mills Suite 255' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 1_oxd-input oxd-input--focus'
+
+27-12-2024T09:23:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 2_oxd-input oxd-input--active"), Street2): Text 'Apt. 158' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 2_oxd-input oxd-input--active'
+
+27-12-2024T09:23:11 - [MESSAGE][PASSED] - Text 'Apt. 158' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Street 2_oxd-input oxd-input--active'
+
+27-12-2024T09:23:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_City_oxd-input oxd-input--active"), City): Text 'West Lisashire' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_City_oxd-input oxd-input--active'
+
+27-12-2024T09:23:11 - [MESSAGE][PASSED] - Text 'West Lisashire' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_City_oxd-input oxd-input--active'
+
+27-12-2024T09:23:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_StateProvince_oxd-input oxd-input--active"), State): Text 'Arizona' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_StateProvince_oxd-input oxd-input--active'
+
+27-12-2024T09:23:12 - [MESSAGE][PASSED] - Text 'Arizona' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_StateProvince_oxd-input oxd-input--active'
+
+27-12-2024T09:23:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active"), ZipCode): Text '13992' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active'
+
+27-12-2024T09:23:12 - [MESSAGE][PASSED] - Text '13992' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_ZipPostal Code_oxd-input oxd-input--active'
+
+27-12-2024T09:23:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+27-12-2024T09:23:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+27-12-2024T09:23:13 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Country])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+27-12-2024T09:23:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+27-12-2024T09:23:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Home_oxd-input oxd-input--focus"), Tel_Home): Text '940-836-8056' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Home_oxd-input oxd-input--focus'
+
+27-12-2024T09:23:14 - [MESSAGE][PASSED] - Text '940-836-8056' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Home_oxd-input oxd-input--focus'
+
+27-12-2024T09:23:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Mobile_oxd-input oxd-input--focus"), Tell_Mobile): Text '625-539-8531' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Mobile_oxd-input oxd-input--focus'
+
+27-12-2024T09:23:14 - [MESSAGE][PASSED] - Text '625-539-8531' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Mobile_oxd-input oxd-input--focus'
+
+27-12-2024T09:23:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work_oxd-input oxd-input--focus"), Tel_Work): Text '702-291-6583' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work_oxd-input oxd-input--focus'
+
+27-12-2024T09:23:15 - [MESSAGE][PASSED] - Text '702-291-6583' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work_oxd-input oxd-input--focus'
+
+27-12-2024T09:23:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work Email_oxd-input oxd-input--active"), Email_Work): Text 'janice.james@ferrell.org' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work Email_oxd-input oxd-input--active'
+
+27-12-2024T09:23:15 - [MESSAGE][PASSED] - Text 'janice.james@ferrell.org' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Work Email_oxd-input oxd-input--active'
+
+27-12-2024T09:23:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Other Email_oxd-input oxd-input--focu_8ec2d9"), Email_Other): Text 'janice.james@sampledomain.info' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Other Email_oxd-input oxd-input--focu_8ec2d9'
+
+27-12-2024T09:23:17 - [MESSAGE][PASSED] - Text 'janice.james@sampledomain.info' is set on object 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/input_Other Email_oxd-input oxd-input--focu_8ec2d9'
+
+27-12-2024T09:23:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Save' is clicked on
+
+27-12-2024T09:23:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Contact_Details/Page_OrangeHRM/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-12-2024T09:21:15 - [TEST_SUITE][PASSED] - TS_Employee_Contact_Details: Test Cases/Employee_Onboarding/TC_Employee_Contact_Details]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

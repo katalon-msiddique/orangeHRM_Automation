@@ -17,6 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+// Click on the "PIM" tab to access the Employee Management section
+WebUI.comment('Step 1: Click on the "PIM" tab to access the Employee Management section')
+
+WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM'))
+
+// Set the search text for employee name (e.g., "Alice Johnson") in the search input field
+WebUI.comment('Step 2: Set the employee name "Alice Johnson" in the search input field')
+
+WebUI.setText(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input'), Fullname)
+
+// Click on the "Search" button to search for the employee
+WebUI.comment('Step 3: Click the "Search" button to search for the employee')
+
+WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search'))
+
+/// ************* Search Option Above ************** ///
+
 // Select an employee record by clicking on the corresponding employee ID
 WebUI.comment('Step 1: Select the employee record by clicking on the employee ID')
 
@@ -43,35 +60,35 @@ WebUI.comment('Step 5: Open the dropdown menu to make selections (e.g., job titl
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec'))
 
 WebUI.click(findTestObject('Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown', 
-        [('value') : 'AI Test Engineer']))
+        [('value') : Job_Title]))
 
 WebUI.comment('Step 6: Select the desired job option from the dropdown')
 
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1'))
 
 WebUI.click(findTestObject('Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown', 
-        [('value') : 'Professionals']))
+        [('value') : Job_Category]))
 
 WebUI.comment('Step 7: Select the desired job category from the dropdown')
 
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2'))
 
 WebUI.click(findTestObject('Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown', 
-        [('value') : 'QA Tester']))
+        [('value') : Sub_Unit]))
 
 WebUI.comment('Step 8: Select the desired sub-category from the dropdown')
 
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3'))
 
 WebUI.click(findTestObject('Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown', 
-        [('value') : 'Office']))
+        [('value') : Location]))
 
 WebUI.comment('Step 9: Finalize the job details by selecting the appropriate options from the dropdown')
 
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3_4'))
 
 WebUI.click(findTestObject('Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown', 
-        [('value') : 'Full-Time Permanent']))
+        [('value') : Employee_Status]))
 
 // Save the changes made to the job details
 WebUI.comment('Step 10: Click the "Save" button to save the updated job details for the employee')

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Employee_Onboarding" time="41.615" tests="3" failures="0" errors="0">
+   <testsuite name="TS_Employee_Onboarding" tests="3" failures="0" errors="0" time="41.615" skipped="0" timestamp="24-12-2024T23:17:02" hostname="mahtabsiddique - localhost" id="Test Suites/Employee_Onboarding/TS_Employee_Onboarding">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/mahtabsiddique/git/orange/orangeHRM_Automation/Reports/20241224_231655/Employee_Onboarding/TS_Employee_Onboarding/20241224_231656"/>
+         <property name="logFiles" value="/Users/mahtabsiddique/git/orange/orangeHRM_Automation/Reports/20241224_231655/Employee_Onboarding/TS_Employee_Onboarding/20241224_231656/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mahtabsiddique - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="8b68c0cd4aeb074ae294e796c9d085fb"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Login" time="23.149" classname="Test Cases/Employee_Onboarding/TC_Employee_Login" status="PASSED">
+         <system-out><![CDATA[24-12-2024T23:17:02 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/TC_Employee_Login: Test Cases/Employee_Onboarding/TC_Employee_Login
+
+24-12-2024T23:17:02 - [TEST_STEP][PASSED] - comment("Step 1: Open a new browser instance"): Step 1: Open a new browser instance
+
+24-12-2024T23:17:02 - [MESSAGE][INFO] - Step 1: Open a new browser instance
+
+24-12-2024T23:17:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-12-2024T23:17:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-12-2024T23:17:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-12-2024T23:17:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+24-12-2024T23:17:04 - [TEST_STEP][PASSED] - comment("Step 2: Navigate to the OrangeHRM login page"): Step 2: Navigate to the OrangeHRM login page
+
+24-12-2024T23:17:04 - [MESSAGE][INFO] - Step 2: Navigate to the OrangeHRM login page
+
+24-12-2024T23:17:04 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://orange.katalon.com/web/index.php/auth/login' successfully
+
+24-12-2024T23:17:22 - [MESSAGE][PASSED] - Navigate to 'http://orange.katalon.com/web/index.php/auth/login' successfully
+
+24-12-2024T23:17:22 - [TEST_STEP][PASSED] - comment("Step 3: Enter the username into the username input field"): Step 3: Enter the username into the username input field
+
+24-12-2024T23:17:22 - [MESSAGE][INFO] - Step 3: Enter the username into the username input field
+
+24-12-2024T23:17:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username"), Username): Text 'mahtab' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username'
+
+24-12-2024T23:17:23 - [MESSAGE][PASSED] - Text 'mahtab' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username'
+
+24-12-2024T23:17:23 - [TEST_STEP][PASSED] - comment("Step 4: Enter the encrypted password into the password input field"): Step 4: Enter the encrypted password into the password input field
+
+24-12-2024T23:17:23 - [MESSAGE][INFO] - Step 4: Enter the encrypted password into the password input field
+
+24-12-2024T23:17:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password'
+
+24-12-2024T23:17:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password'
+
+24-12-2024T23:17:23 - [TEST_STEP][PASSED] - comment("Step 5: Click the login button to submit the login form"): Step 5: Click the login button to submit the login form
+
+24-12-2024T23:17:23 - [MESSAGE][INFO] - Step 5: Click the login button to submit the login form
+
+24-12-2024T23:17:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Login' is clicked on
+
+24-12-2024T23:17:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee_Onboarding/TC_PIM_Employee_Search" time="5.786" classname="Test Cases/Employee_Onboarding/TC_PIM_Employee_Search" status="PASSED">
+         <system-out><![CDATA[24-12-2024T23:17:25 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/TC_PIM_Employee_Search: Test Cases/Employee_Onboarding/TC_PIM_Employee_Search
+
+24-12-2024T23:17:25 - [TEST_STEP][PASSED] - comment("Step 1: Click on the "PIM" tab to access the Employee Management section"): Step 1: Click on the "PIM" tab to access the Employee Management section
+
+24-12-2024T23:17:25 - [MESSAGE][INFO] - Step 1: Click on the "PIM" tab to access the Employee Management section
+
+24-12-2024T23:17:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM' is clicked on
+
+24-12-2024T23:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM' is clicked on
+
+24-12-2024T23:17:28 - [TEST_STEP][PASSED] - comment("Step 2: Set the employee name "Alice Johnson" in the search input field"): Step 2: Set the employee name "Alice Johnson" in the search input field
+
+24-12-2024T23:17:28 - [MESSAGE][INFO] - Step 2: Set the employee name "Alice Johnson" in the search input field
+
+24-12-2024T23:17:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input"), "Alice Johnson"): Text 'Alice Johnson' is set on object 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input'
+
+24-12-2024T23:17:30 - [MESSAGE][PASSED] - Text 'Alice Johnson' is set on object 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input'
+
+24-12-2024T23:17:30 - [TEST_STEP][PASSED] - comment("Step 3: Click the "Search" button to search for the employee"): Step 3: Click the "Search" button to search for the employee
+
+24-12-2024T23:17:30 - [MESSAGE][INFO] - Step 3: Click the "Search" button to search for the employee
+
+24-12-2024T23:17:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search' is clicked on
+
+24-12-2024T23:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Job_Details" time="12.603" classname="Test Cases/Employee_Onboarding/TC_Employee_Job_Details" status="PASSED">
+         <system-out><![CDATA[24-12-2024T23:17:31 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/TC_Employee_Job_Details: Test Cases/Employee_Onboarding/TC_Employee_Job_Details
+
+24-12-2024T23:17:31 - [TEST_STEP][PASSED] - comment("Step 1: Select the employee record by clicking on the employee ID"): Step 1: Select the employee record by clicking on the employee ID
+
+24-12-2024T23:17:31 - [MESSAGE][INFO] - Step 1: Select the employee record by clicking on the employee ID
+
+24-12-2024T23:17:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_0034008")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_0034008' is clicked on
+
+24-12-2024T23:17:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_0034008' is clicked on
+
+24-12-2024T23:17:32 - [TEST_STEP][PASSED] - comment("Step 2: Click on the "Job" tab in the employee details section"): Step 2: Click on the "Job" tab in the employee details section
+
+24-12-2024T23:17:32 - [MESSAGE][INFO] - Step 2: Click on the "Job" tab in the employee details section
+
+24-12-2024T23:17:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_Job")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_Job' is clicked on
+
+24-12-2024T23:17:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_Job' is clicked on
+
+24-12-2024T23:17:35 - [TEST_STEP][PASSED] - comment("Step 3: Open the date picker for "Joined Date""): Step 3: Open the date picker for "Joined Date"
+
+24-12-2024T23:17:35 - [MESSAGE][INFO] - Step 3: Open the date picker for "Joined Date"
+
+24-12-2024T23:17:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_Joined Date_oxd-icon bi-calendar oxd-date_38329e")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_Joined Date_oxd-icon bi-calendar oxd-date_38329e' is clicked on
+
+24-12-2024T23:17:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_Joined Date_oxd-icon bi-calendar oxd-date_38329e' is clicked on
+
+24-12-2024T23:17:38 - [TEST_STEP][PASSED] - comment("Step 4: Select the 31st as the "Joined Date""): Step 4: Select the 31st as the "Joined Date"
+
+24-12-2024T23:17:38 - [MESSAGE][INFO] - Step 4: Select the 31st as the "Joined Date"
+
+24-12-2024T23:17:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_31")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_31' is clicked on
+
+24-12-2024T23:17:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_31' is clicked on
+
+24-12-2024T23:17:38 - [TEST_STEP][PASSED] - comment("Step 5: Open the dropdown menu to make selections (e.g., job title, employment type)"): Step 5: Open the dropdown menu to make selections (e.g., job title, employment type)
+
+24-12-2024T23:17:38 - [MESSAGE][INFO] - Step 5: Open the dropdown menu to make selections (e.g., job title, employment type)
+
+24-12-2024T23:17:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+24-12-2024T23:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+24-12-2024T23:17:39 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":"AI Test Engineer"])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+24-12-2024T23:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+24-12-2024T23:17:39 - [TEST_STEP][PASSED] - comment("Step 6: Select the desired job option from the dropdown"): Step 6: Select the desired job option from the dropdown
+
+24-12-2024T23:17:39 - [MESSAGE][INFO] - Step 6: Select the desired job option from the dropdown
+
+24-12-2024T23:17:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1' is clicked on
+
+24-12-2024T23:17:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1' is clicked on
+
+24-12-2024T23:17:40 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":"Professionals"])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+24-12-2024T23:17:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+24-12-2024T23:17:40 - [TEST_STEP][PASSED] - comment("Step 7: Select the desired job category from the dropdown"): Step 7: Select the desired job category from the dropdown
+
+24-12-2024T23:17:40 - [MESSAGE][INFO] - Step 7: Select the desired job category from the dropdown
+
+24-12-2024T23:17:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2' is clicked on
+
+24-12-2024T23:17:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2' is clicked on
+
+24-12-2024T23:17:40 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":"QA Tester"])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+24-12-2024T23:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+24-12-2024T23:17:41 - [TEST_STEP][PASSED] - comment("Step 8: Select the desired sub-category from the dropdown"): Step 8: Select the desired sub-category from the dropdown
+
+24-12-2024T23:17:41 - [MESSAGE][INFO] - Step 8: Select the desired sub-category from the dropdown
+
+24-12-2024T23:17:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3' is clicked on
+
+24-12-2024T23:17:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3' is clicked on
+
+24-12-2024T23:17:41 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":"Office"])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+24-12-2024T23:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+24-12-2024T23:17:42 - [TEST_STEP][PASSED] - comment("Step 9: Finalize the job details by selecting the appropriate options from the dropdown"): Step 9: Finalize the job details by selecting the appropriate options from the dropdown
+
+24-12-2024T23:17:42 - [MESSAGE][INFO] - Step 9: Finalize the job details by selecting the appropriate options from the dropdown
+
+24-12-2024T23:17:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3_4")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3_4' is clicked on
+
+24-12-2024T23:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3_4' is clicked on
+
+24-12-2024T23:17:42 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":"Full-Time Permanent"])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+24-12-2024T23:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+24-12-2024T23:17:43 - [TEST_STEP][PASSED] - comment("Step 10: Click the "Save" button to save the updated job details for the employee"): Step 10: Click the "Save" button to save the updated job details for the employee
+
+24-12-2024T23:17:43 - [MESSAGE][INFO] - Step 10: Click the "Save" button to save the updated job details for the employee
+
+24-12-2024T23:17:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Save' is clicked on
+
+24-12-2024T23:17:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-12-2024T23:17:02 - [TEST_SUITE][PASSED] - TS_Employee_Onboarding: Test Cases/Employee_Onboarding/TC_Employee_Job_Details]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

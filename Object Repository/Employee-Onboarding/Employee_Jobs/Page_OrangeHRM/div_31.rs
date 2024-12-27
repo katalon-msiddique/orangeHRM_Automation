@@ -11,17 +11,16 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:text=&quot;31&quot;i</value>
+         <value>internal:text=&quot;21&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>c29d6c83-242e-48cd-a85d-53ee0419ac9f</webElementGuid>
+      <webElementGuid>f0e3a608-9f0e-4265-bf2b-3fa8a2f97029</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>oxd-calendar-date</value>
-      <webElementGuid>98b05a7a-5f6b-4933-bee7-8958c7fddaa0</webElementGuid>
+      <webElementGuid>3e8fc8fb-33d6-4dba-a470-a5326b185be1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>31</value>
-      <webElementGuid>e521cd38-17a9-4c8b-b9d7-3606164bff73</webElementGuid>
+      <webElementGuid>2b8c3d9e-2967-4429-a701-d254f9e691ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;oxd-layout orangehrm-upgrade-layout&quot;]/div[@class=&quot;oxd-layout-container&quot;]/div[@class=&quot;oxd-layout-context&quot;]/div[@class=&quot;orangehrm-background-container&quot;]/div[@class=&quot;orangehrm-card-container&quot;]/div[@class=&quot;orangehrm-edit-employee&quot;]/div[@class=&quot;orangehrm-edit-employee-content&quot;]/div[@class=&quot;orangehrm-horizontal-padding orangehrm-vertical-padding&quot;]/form[@class=&quot;oxd-form&quot;]/div[@class=&quot;oxd-form-row&quot;]/div[@class=&quot;oxd-grid-3 orangehrm-full-width-grid&quot;]/div[@class=&quot;oxd-grid-item oxd-grid-item--gutters&quot;]/div[@class=&quot;oxd-input-group oxd-input-field-bottom-space&quot;]/div[2]/div[@class=&quot;oxd-date-wrapper&quot;]/div[@class=&quot;oxd-date-input-calendar&quot;]/div[@class=&quot;oxd-calendar-wrapper&quot;]/div[@class=&quot;oxd-calendar-dates-grid&quot;]/div[@class=&quot;oxd-calendar-date-wrapper&quot;]/div[@class=&quot;oxd-calendar-date&quot;]</value>
-      <webElementGuid>88c3314f-bf10-46b4-bd2b-26b95257dc33</webElementGuid>
+      <webElementGuid>9e7645f3-e01e-4e6f-abf2-b88d1eb37acd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div/form/div/div/div/div/div[2]/div/div[2]/div/div[3]/div[31]/div</value>
-      <webElementGuid>4a24a02a-f335-4c74-899b-429d40c4eda5</webElementGuid>
+      <webElementGuid>c6edc4f7-41d9-443f-8572-506b270a0d25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='S'])[2]/following::div[63]</value>
-      <webElementGuid>6c2db73b-2fe9-42c5-8ec6-6702dbc24469</webElementGuid>
+      <webElementGuid>fd877c9e-0a95-4089-8a1c-1029eb4a96be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='F'])[1]/following::div[64]</value>
-      <webElementGuid>9da45b7d-ff17-40de-8d76-a8990afbe9ac</webElementGuid>
+      <webElementGuid>5defe584-7616-4510-a5ed-65223b58f56c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/preceding::div[1]</value>
-      <webElementGuid>7f6f2150-53f9-4d87-8afe-9b2c4ac86f93</webElementGuid>
+      <webElementGuid>0c316bc2-0356-4dea-91b4-eac6d778502d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/preceding::div[2]</value>
-      <webElementGuid>b1a0cfdc-790c-4633-bbc9-932113bfbd6d</webElementGuid>
+      <webElementGuid>a3ac6811-a02c-44d1-9ce5-d6125f989070</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='31']/parent::*</value>
-      <webElementGuid>d0b768d1-0e57-469e-a1c7-1ae0e05698e2</webElementGuid>
+      <webElementGuid>f5545f1f-0ada-4a9a-a21c-6103adfbb90a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[31]/div</value>
-      <webElementGuid>9e04be98-487c-4a8b-8378-915f48569de7</webElementGuid>
+      <webElementGuid>5c990d0d-e85c-41eb-8b43-faac738ae41a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +116,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '31' or . = '31')]</value>
-      <webElementGuid>11e7bcb2-1dff-4e93-8eee-a3ea1e8c10e0</webElementGuid>
+      <webElementGuid>d53d1d8f-d6dd-4868-ad7c-2966ca7db815</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

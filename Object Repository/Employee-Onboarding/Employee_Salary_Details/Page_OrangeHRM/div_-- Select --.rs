@@ -6,19 +6,19 @@
    <elementGuidId>890c142f-803f-484e-aced-3e230e925837</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div/form/div/div/div[2]/div/div[2]/div/div</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Grade 1' or . = 'Grade 1')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[2]/div[2]/div/div/div/div[2]/div/form/div/div/div[2]/div/div[2]/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.oxd-select-text.oxd-select-text--focus</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>

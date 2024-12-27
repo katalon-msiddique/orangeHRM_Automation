@@ -19,31 +19,43 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>420196ca-16ea-454f-a929-b50de83c2bd6</guid>
+      <guid>480e72d7-4f16-40bf-91ca-8879c8180f53</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Employee_Onboarding/TC_PIM_Employee_Search</testCaseId>
+      <testCaseId>Test Cases/Employee_Onboarding/TC_Employee_Onboarding</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>28d046f7-9c69-4f65-bad4-8335d3c66787</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Employee_Onboarding/Employee_Date</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>410a4ba7-07a4-4a9e-9cf7-63df04ff9fe8</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Employee_Onboarding/TC_Employee_Job_Details</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ee673f47-009e-4e6f-a4f7-10e44bfef99a</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Employee_Onboarding/TC_PIM_Employee_Search</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>eea9457b-bbe5-4c7a-b75b-eca77246f042</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Employee_Onboarding/TC_Employee_Salary_Details</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>28d046f7-9c69-4f65-bad4-8335d3c66787</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FirstName</value>
+         <variableId>08187931-6a0f-4838-80a5-26ae91628c51</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>28d046f7-9c69-4f65-bad4-8335d3c66787</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>LastName</value>
+         <variableId>c4b5b1dd-8153-41b0-9851-efc9f20298b9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>28d046f7-9c69-4f65-bad4-8335d3c66787</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>EmployeeID</value>
+         <variableId>70e0e395-baf4-49d1-8980-6779e5da717a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>28d046f7-9c69-4f65-bad4-8335d3c66787</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>046e4acd-b4cd-4c35-a0d6-56e30690daf0</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

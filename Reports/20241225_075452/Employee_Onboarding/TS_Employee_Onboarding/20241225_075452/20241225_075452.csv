@@ -1,0 +1,82 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Employee_Onboarding,Chrome 131.0.0.0,,,25-12-2024 07:54:53,25-12-2024 07:55:41,47.887s,PASSED
+,,,,,,,
+Test Cases/Employee_Onboarding/TC_Employee_Login,Chrome 131.0.0.0,,,25-12-2024 07:54:53,25-12-2024 07:55:08,14.715s,PASSED
+"comment(""Step 1: Open a new browser instance"")",Chrome 131.0.0.0,,,25-12-2024 07:54:53,25-12-2024 07:54:53,0.031s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,25-12-2024 07:54:53,25-12-2024 07:54:55,1.757s,PASSED
+"comment(""Step 2: Navigate to the OrangeHRM login page"")",Chrome 131.0.0.0,,,25-12-2024 07:54:55,25-12-2024 07:54:55,0.002s,PASSED
+navigateToUrl(URL),Chrome 131.0.0.0,,,25-12-2024 07:54:55,25-12-2024 07:55:01,5.631s,PASSED
+"comment(""Step 3: Enter the username into the username input field"")",Chrome 131.0.0.0,,,25-12-2024 07:55:01,25-12-2024 07:55:01,0.008s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username""), Username)",Chrome 131.0.0.0,,,25-12-2024 07:55:01,25-12-2024 07:55:06,5.286s,PASSED
+"comment(""Step 4: Enter the encrypted password into the password input field"")",Chrome 131.0.0.0,,,25-12-2024 07:55:06,25-12-2024 07:55:06,0.003s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password""), Password)",Chrome 131.0.0.0,,,25-12-2024 07:55:06,25-12-2024 07:55:06,0.277s,PASSED
+"comment(""Step 5: Click the login button to submit the login form"")",Chrome 131.0.0.0,,,25-12-2024 07:55:06,25-12-2024 07:55:06,0.002s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Login""))",Chrome 131.0.0.0,,,25-12-2024 07:55:06,25-12-2024 07:55:08,1.614s,PASSED
+,,,,,,,
+Test Cases/Employee_Onboarding/TC_Employee_Onboarding,Chrome 131.0.0.0,,,25-12-2024 07:55:08,25-12-2024 07:55:23,15.091s,PASSED
+"comment(""Step 1: Click on the PIM module link"")",Chrome 131.0.0.0,,,25-12-2024 07:55:08,25-12-2024 07:55:08,0.003s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM""))",Chrome 131.0.0.0,,,25-12-2024 07:55:08,25-12-2024 07:55:12,4.098s,PASSED
+"comment(""Step 2: Click the ""Add"" button to add a new employee"")",Chrome 131.0.0.0,,,25-12-2024 07:55:12,25-12-2024 07:55:12,0.002s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Add""))",Chrome 131.0.0.0,,,25-12-2024 07:55:12,25-12-2024 07:55:15,2.951s,PASSED
+"comment(""Step 3: Focus on the ""First Name"" input field"")",Chrome 131.0.0.0,,,25-12-2024 07:55:15,25-12-2024 07:55:15,0.002s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName""))",Chrome 131.0.0.0,,,25-12-2024 07:55:15,25-12-2024 07:55:17,1.935s,PASSED
+"comment(""Step 4: Enter the employee's first name"")",Chrome 131.0.0.0,,,25-12-2024 07:55:17,25-12-2024 07:55:17,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName""), Firstname)",Chrome 131.0.0.0,,,25-12-2024 07:55:17,25-12-2024 07:55:17,0.492s,PASSED
+"comment(""Step 5: Enter the employee's last name"")",Chrome 131.0.0.0,,,25-12-2024 07:55:17,25-12-2024 07:55:17,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName""), Lastname)",Chrome 131.0.0.0,,,25-12-2024 07:55:17,25-12-2024 07:55:18,0.507s,PASSED
+"comment(""Step 6: Clear the default value in the ""Employee ID"" field"")",Chrome 131.0.0.0,,,25-12-2024 07:55:18,25-12-2024 07:55:18,0.001s,PASSED
+"clearText(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus""))",Chrome 131.0.0.0,,,25-12-2024 07:55:18,25-12-2024 07:55:18,0.250s,PASSED
+"comment(""Step 7: Set the employee ID field with a new value"")",Chrome 131.0.0.0,,,25-12-2024 07:55:18,25-12-2024 07:55:18,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus""), """")",Chrome 131.0.0.0,,,25-12-2024 07:55:18,25-12-2024 07:55:19,0.493s,PASSED
+"comment(""Step 8: Toggle the switch related to the Employee ID"")",Chrome 131.0.0.0,,,25-12-2024 07:55:19,25-12-2024 07:55:19,0.001s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/span_Employee Id_oxd-switch-input oxd-switc_efe210""))",Chrome 131.0.0.0,,,25-12-2024 07:55:19,25-12-2024 07:55:19,0.264s,PASSED
+"comment(""Step 9: Retrieve the entered first name and convert it to lowercase"")",Chrome 131.0.0.0,,,25-12-2024 07:55:19,25-12-2024 07:55:19,0.002s,PASSED
+"firstname = getAttribute(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName""), ""value"").toLowerCase()",Chrome 131.0.0.0,,,25-12-2024 07:55:19,25-12-2024 07:55:19,0.445s,PASSED
+"comment(""Step 10: Retrieve the entered last name and convert it to lowercase"")",Chrome 131.0.0.0,,,25-12-2024 07:55:19,25-12-2024 07:55:19,0.001s,PASSED
+"lastname = getAttribute(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName""), ""value"").toLowerCase()",Chrome 131.0.0.0,,,25-12-2024 07:55:19,25-12-2024 07:55:20,0.238s,PASSED
+"comment(""Step 11: Concatenate the first and last names to generate a username"")",Chrome 131.0.0.0,,,25-12-2024 07:55:20,25-12-2024 07:55:20,0.002s,PASSED
+"username = firstname + ""."" + lastname",Chrome 131.0.0.0,,,25-12-2024 07:55:20,25-12-2024 07:55:20,0.002s,PASSED
+"comment(""Step 12: Set the username field with the generated username"")",Chrome 131.0.0.0,,,25-12-2024 07:55:20,25-12-2024 07:55:20,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus""), username)",Chrome 131.0.0.0,,,25-12-2024 07:55:20,25-12-2024 07:55:20,0.494s,PASSED
+"comment(""Step 13: Enter an encrypted password into the password field"")",Chrome 131.0.0.0,,,25-12-2024 07:55:20,25-12-2024 07:55:20,0.001s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_oxd-input oxd-input--active""), ""p7egalF197zCPQnMaznrNq5yBULcTkKN"")",Chrome 131.0.0.0,,,25-12-2024 07:55:20,25-12-2024 07:55:20,0.269s,PASSED
+"comment(""Step 14: Enter an encrypted password into the confirm password field"")",Chrome 131.0.0.0,,,25-12-2024 07:55:20,25-12-2024 07:55:20,0.002s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Confirm Password_oxd-input oxd-input-_a3aecb""), ""p7egalF197zCPQnMaznrNq5yBULcTkKN"")",Chrome 131.0.0.0,,,25-12-2024 07:55:20,25-12-2024 07:55:21,0.481s,PASSED
+"comment(""Step 15: Click the ""Save"" button to finalize adding the new employee"")",Chrome 131.0.0.0,,,25-12-2024 07:55:21,25-12-2024 07:55:21,0.001s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Save""))",Chrome 131.0.0.0,,,25-12-2024 07:55:21,25-12-2024 07:55:21,0.046s,PASSED
+delay(2),Chrome 131.0.0.0,,,25-12-2024 07:55:21,25-12-2024 07:55:23,2.012s,PASSED
+,,,,,,,
+Test Cases/Employee_Onboarding/TC_PIM_Employee_Search,Chrome 131.0.0.0,,,25-12-2024 07:55:23,25-12-2024 07:55:27,4.355s,PASSED
+"comment(""Step 1: Click on the ""PIM"" tab to access the Employee Management section"")",Chrome 131.0.0.0,,,25-12-2024 07:55:23,25-12-2024 07:55:23,0.001s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM""))",Chrome 131.0.0.0,,,25-12-2024 07:55:23,25-12-2024 07:55:25,2.108s,PASSED
+"comment(""Step 2: Set the employee name ""Alice Johnson"" in the search input field"")",Chrome 131.0.0.0,,,25-12-2024 07:55:25,25-12-2024 07:55:25,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input""), Fullname)",Chrome 131.0.0.0,,,25-12-2024 07:55:25,25-12-2024 07:55:27,1.733s,PASSED
+"comment(""Step 3: Click the ""Search"" button to search for the employee"")",Chrome 131.0.0.0,,,25-12-2024 07:55:27,25-12-2024 07:55:27,0.001s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search""))",Chrome 131.0.0.0,,,25-12-2024 07:55:27,25-12-2024 07:55:27,0.469s,PASSED
+,,,,,,,
+Test Cases/Employee_Onboarding/TC_Employee_Job_Details,Chrome 131.0.0.0,,,25-12-2024 07:55:27,25-12-2024 07:55:41,13.635s,PASSED
+"comment(""Step 1: Select the employee record by clicking on the employee ID"")",Chrome 131.0.0.0,,,25-12-2024 07:55:27,25-12-2024 07:55:27,0.002s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_0034008""))",Chrome 131.0.0.0,,,25-12-2024 07:55:27,25-12-2024 07:55:29,1.936s,PASSED
+"comment(""Step 2: Click on the ""Job"" tab in the employee details section"")",Chrome 131.0.0.0,,,25-12-2024 07:55:29,25-12-2024 07:55:29,0.001s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_Job""))",Chrome 131.0.0.0,,,25-12-2024 07:55:29,25-12-2024 07:55:32,3.086s,PASSED
+"comment(""Step 3: Open the date picker for ""Joined Date"""")",Chrome 131.0.0.0,,,25-12-2024 07:55:32,25-12-2024 07:55:32,0.001s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_Joined Date_oxd-icon bi-calendar oxd-date_38329e""))",Chrome 131.0.0.0,,,25-12-2024 07:55:32,25-12-2024 07:55:36,3.317s,PASSED
+"comment(""Step 4: Select the 31st as the ""Joined Date"""")",Chrome 131.0.0.0,,,25-12-2024 07:55:36,25-12-2024 07:55:36,0.003s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_31""))",Chrome 131.0.0.0,,,25-12-2024 07:55:36,25-12-2024 07:55:36,0.046s,PASSED
+"comment(""Step 5: Open the dropdown menu to make selections (e.g., job title, employment type)"")",Chrome 131.0.0.0,,,25-12-2024 07:55:36,25-12-2024 07:55:36,0.001s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec""))",Chrome 131.0.0.0,,,25-12-2024 07:55:36,25-12-2024 07:55:36,0.470s,PASSED
+"click(findTestObject(""Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown"", [""value"":Job_Title]))",Chrome 131.0.0.0,,,25-12-2024 07:55:36,25-12-2024 07:55:37,0.476s,PASSED
+"comment(""Step 6: Select the desired job option from the dropdown"")",Chrome 131.0.0.0,,,25-12-2024 07:55:37,25-12-2024 07:55:37,0.002s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1""))",Chrome 131.0.0.0,,,25-12-2024 07:55:37,25-12-2024 07:55:37,0.468s,PASSED
+"click(findTestObject(""Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown"", [""value"":Job_Category]))",Chrome 131.0.0.0,,,25-12-2024 07:55:37,25-12-2024 07:55:38,0.468s,PASSED
+"comment(""Step 7: Select the desired job category from the dropdown"")",Chrome 131.0.0.0,,,25-12-2024 07:55:38,25-12-2024 07:55:38,0.001s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2""))",Chrome 131.0.0.0,,,25-12-2024 07:55:38,25-12-2024 07:55:38,0.468s,PASSED
+"click(findTestObject(""Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown"", [""value"":Sub_Unit]))",Chrome 131.0.0.0,,,25-12-2024 07:55:38,25-12-2024 07:55:39,0.469s,PASSED
+"comment(""Step 8: Select the desired sub-category from the dropdown"")",Chrome 131.0.0.0,,,25-12-2024 07:55:39,25-12-2024 07:55:39,0.001s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3""))",Chrome 131.0.0.0,,,25-12-2024 07:55:39,25-12-2024 07:55:39,0.467s,PASSED
+"click(findTestObject(""Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown"", [""value"":Location]))",Chrome 131.0.0.0,,,25-12-2024 07:55:39,25-12-2024 07:55:39,0.467s,PASSED
+"comment(""Step 9: Finalize the job details by selecting the appropriate options from the dropdown"")",Chrome 131.0.0.0,,,25-12-2024 07:55:39,25-12-2024 07:55:39,0.001s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3_4""))",Chrome 131.0.0.0,,,25-12-2024 07:55:39,25-12-2024 07:55:40,0.468s,PASSED
+"click(findTestObject(""Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown"", [""value"":Employee_Status]))",Chrome 131.0.0.0,,,25-12-2024 07:55:40,25-12-2024 07:55:40,0.466s,PASSED
+"comment(""Step 10: Click the ""Save"" button to save the updated job details for the employee"")",Chrome 131.0.0.0,,,25-12-2024 07:55:40,25-12-2024 07:55:40,0.001s,PASSED
+"click(findTestObject(""Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Save""))",Chrome 131.0.0.0,,,25-12-2024 07:55:40,25-12-2024 07:55:41,0.467s,PASSED

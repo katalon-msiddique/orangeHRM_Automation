@@ -55,9 +55,8 @@ WebUI.comment('Step 7: Set the employee ID field with a new value')
 WebUI.setText(findTestObject('Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus'), 
     '')
 
-WebUI.setText(findTestObject('Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus'), 
-    EmployeeID)
-
+//WebUI.setText(findTestObject('Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus'), 
+//    EmployeeID)
 // Toggle the switch for the "Employee ID" option
 WebUI.comment('Step 8: Toggle the switch related to the Employee ID')
 
@@ -90,16 +89,18 @@ WebUI.setText(findTestObject('Object Repository/Employee-Onboarding/Page_OrangeH
 WebUI.comment('Step 13: Enter an encrypted password into the password field')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_oxd-input oxd-input--active'), 
-    'p7egalF197zCPQnMaznrNq5yBULcTkKN')
+    EmployeePassword)
 
 // Set the confirm password field with an encrypted password
 WebUI.comment('Step 14: Enter an encrypted password into the confirm password field')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Confirm Password_oxd-input oxd-input-_a3aecb'), 
-    'p7egalF197zCPQnMaznrNq5yBULcTkKN')
+    EmployeePassword)
 
 // Click the Save button to complete the employee onboarding
 WebUI.comment('Step 15: Click the "Save" button to finalize adding the new employee')
 
 WebUI.click(findTestObject('Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Save'))
+
+WebUI.delay(2)
 

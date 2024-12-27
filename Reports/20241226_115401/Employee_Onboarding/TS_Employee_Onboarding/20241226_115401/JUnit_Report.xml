@@ -1,0 +1,1384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Employee_Onboarding" time="255.03" tests="10" failures="0" errors="3">
+   <testsuite name="TS_Employee_Onboarding" tests="10" failures="0" errors="3" time="255.03" skipped="0" timestamp="26-12-2024T11:54:06" hostname="mahtabsiddique - localhost" id="Test Suites/Employee_Onboarding/TS_Employee_Onboarding">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/mahtabsiddique/git/orange/orangeHRM_Automation/Reports/20241226_115401/Employee_Onboarding/TS_Employee_Onboarding/20241226_115401"/>
+         <property name="logFiles" value="/Users/mahtabsiddique/git/orange/orangeHRM_Automation/Reports/20241226_115401/Employee_Onboarding/TS_Employee_Onboarding/20241226_115401/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="mahtabsiddique - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="10.0.1.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="329862e2cc812c5ead7477397dbe00e7"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Login" time="20.836" classname="Test Cases/Employee_Onboarding/TC_Employee_Login" status="PASSED">
+         <system-out><![CDATA[26-12-2024T11:54:06 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/TC_Employee_Login: Test Cases/Employee_Onboarding/TC_Employee_Login
+
+26-12-2024T11:54:06 - [TEST_STEP][PASSED] - comment("Step 1: Open a new browser instance"): Step 1: Open a new browser instance
+
+26-12-2024T11:54:06 - [MESSAGE][INFO] - Step 1: Open a new browser instance
+
+26-12-2024T11:54:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-12-2024T11:54:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-12-2024T11:54:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-12-2024T11:54:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-12-2024T11:54:08 - [TEST_STEP][PASSED] - comment("Step 2: Navigate to the OrangeHRM login page"): Step 2: Navigate to the OrangeHRM login page
+
+26-12-2024T11:54:08 - [MESSAGE][INFO] - Step 2: Navigate to the OrangeHRM login page
+
+26-12-2024T11:54:08 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'http://orange.katalon.com/web/index.php/auth/login' successfully
+
+26-12-2024T11:54:23 - [MESSAGE][PASSED] - Navigate to 'http://orange.katalon.com/web/index.php/auth/login' successfully
+
+26-12-2024T11:54:23 - [TEST_STEP][PASSED] - comment("Step 3: Enter the username into the username input field"): Step 3: Enter the username into the username input field
+
+26-12-2024T11:54:23 - [MESSAGE][INFO] - Step 3: Enter the username into the username input field
+
+26-12-2024T11:54:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username"), Username): Text 'mahtab' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username'
+
+26-12-2024T11:54:25 - [MESSAGE][PASSED] - Text 'mahtab' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_username'
+
+26-12-2024T11:54:25 - [TEST_STEP][PASSED] - comment("Step 4: Enter the encrypted password into the password input field"): Step 4: Enter the encrypted password into the password input field
+
+26-12-2024T11:54:25 - [MESSAGE][INFO] - Step 4: Enter the encrypted password into the password input field
+
+26-12-2024T11:54:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password"), Password): Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password'
+
+26-12-2024T11:54:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_password'
+
+26-12-2024T11:54:25 - [TEST_STEP][PASSED] - comment("Step 5: Click the login button to submit the login form"): Step 5: Click the login button to submit the login form
+
+26-12-2024T11:54:25 - [MESSAGE][INFO] - Step 5: Click the login button to submit the login form
+
+26-12-2024T11:54:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Login' is clicked on
+
+26-12-2024T11:54:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Onboarding" time="13.559" classname="Test Cases/Employee_Onboarding/TC_Employee_Onboarding" status="PASSED">
+         <system-out><![CDATA[26-12-2024T11:54:27 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/TC_Employee_Onboarding: Test Cases/Employee_Onboarding/TC_Employee_Onboarding
+
+26-12-2024T11:54:27 - [TEST_STEP][PASSED] - comment("Step 1: Click on the PIM module link"): Step 1: Click on the PIM module link
+
+26-12-2024T11:54:27 - [MESSAGE][INFO] - Step 1: Click on the PIM module link
+
+26-12-2024T11:54:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T11:54:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T11:54:31 - [TEST_STEP][PASSED] - comment("Step 2: Click the "Add" button to add a new employee"): Step 2: Click the "Add" button to add a new employee
+
+26-12-2024T11:54:31 - [MESSAGE][INFO] - Step 2: Click the "Add" button to add a new employee
+
+26-12-2024T11:54:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Add")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Add' is clicked on
+
+26-12-2024T11:54:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Add' is clicked on
+
+26-12-2024T11:54:33 - [TEST_STEP][PASSED] - comment("Step 3: Focus on the "First Name" input field"): Step 3: Focus on the "First Name" input field
+
+26-12-2024T11:54:33 - [MESSAGE][INFO] - Step 3: Focus on the "First Name" input field
+
+26-12-2024T11:54:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName' is clicked on
+
+26-12-2024T11:54:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName' is clicked on
+
+26-12-2024T11:54:34 - [TEST_STEP][PASSED] - comment("Step 4: Enter the employee's first name"): Step 4: Enter the employee's first name
+
+26-12-2024T11:54:34 - [MESSAGE][INFO] - Step 4: Enter the employee's first name
+
+26-12-2024T11:54:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName"), Firstname): Text 'Sandra' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName'
+
+26-12-2024T11:54:35 - [MESSAGE][PASSED] - Text 'Sandra' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName'
+
+26-12-2024T11:54:35 - [TEST_STEP][PASSED] - comment("Step 5: Enter the employee's last name"): Step 5: Enter the employee's last name
+
+26-12-2024T11:54:35 - [MESSAGE][INFO] - Step 5: Enter the employee's last name
+
+26-12-2024T11:54:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName"), Lastname): Text 'Barber' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName'
+
+26-12-2024T11:54:35 - [MESSAGE][PASSED] - Text 'Barber' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName'
+
+26-12-2024T11:54:35 - [TEST_STEP][PASSED] - comment("Step 6: Clear the default value in the "Employee ID" field"): Step 6: Clear the default value in the "Employee ID" field
+
+26-12-2024T11:54:35 - [MESSAGE][INFO] - Step 6: Clear the default value in the "Employee ID" field
+
+26-12-2024T11:54:35 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus")): Text of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus' is cleared
+
+26-12-2024T11:54:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus' is cleared
+
+26-12-2024T11:54:36 - [TEST_STEP][PASSED] - comment("Step 7: Set the employee ID field with a new value"): Step 7: Set the employee ID field with a new value
+
+26-12-2024T11:54:36 - [MESSAGE][INFO] - Step 7: Set the employee ID field with a new value
+
+26-12-2024T11:54:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus"), ""): Text '' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus'
+
+26-12-2024T11:54:36 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus'
+
+26-12-2024T11:54:36 - [TEST_STEP][PASSED] - comment("Step 8: Toggle the switch related to the Employee ID"): Step 8: Toggle the switch related to the Employee ID
+
+26-12-2024T11:54:36 - [MESSAGE][INFO] - Step 8: Toggle the switch related to the Employee ID
+
+26-12-2024T11:54:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/span_Employee Id_oxd-switch-input oxd-switc_efe210")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/span_Employee Id_oxd-switch-input oxd-switc_efe210' is clicked on
+
+26-12-2024T11:54:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/span_Employee Id_oxd-switch-input oxd-switc_efe210' is clicked on
+
+26-12-2024T11:54:36 - [TEST_STEP][PASSED] - comment("Step 9: Retrieve the entered first name and convert it to lowercase"): Step 9: Retrieve the entered first name and convert it to lowercase
+
+26-12-2024T11:54:36 - [MESSAGE][INFO] - Step 9: Retrieve the entered first name and convert it to lowercase
+
+26-12-2024T11:54:36 - [TEST_STEP][PASSED] - firstname = getAttribute(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName"), "value").toLowerCase(): Attribute 'value' of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName' is: 'Sandra'
+
+26-12-2024T11:54:37 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName' is: 'Sandra'
+
+26-12-2024T11:54:37 - [TEST_STEP][PASSED] - comment("Step 10: Retrieve the entered last name and convert it to lowercase"): Step 10: Retrieve the entered last name and convert it to lowercase
+
+26-12-2024T11:54:37 - [MESSAGE][INFO] - Step 10: Retrieve the entered last name and convert it to lowercase
+
+26-12-2024T11:54:37 - [TEST_STEP][PASSED] - lastname = getAttribute(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName"), "value").toLowerCase(): Attribute 'value' of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName' is: 'Barber'
+
+26-12-2024T11:54:37 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName' is: 'Barber'
+
+26-12-2024T11:54:37 - [TEST_STEP][PASSED] - comment("Step 11: Concatenate the first and last names to generate a username"): Step 11: Concatenate the first and last names to generate a username
+
+26-12-2024T11:54:37 - [MESSAGE][INFO] - Step 11: Concatenate the first and last names to generate a username
+
+26-12-2024T11:54:37 - [TEST_STEP][PASSED] - username = firstname + "." + lastname: null
+
+26-12-2024T11:54:37 - [TEST_STEP][PASSED] - comment("Step 12: Set the username field with the generated username"): Step 12: Set the username field with the generated username
+
+26-12-2024T11:54:37 - [MESSAGE][INFO] - Step 12: Set the username field with the generated username
+
+26-12-2024T11:54:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus"), username): Text 'sandra.barber' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'
+
+26-12-2024T11:54:38 - [MESSAGE][PASSED] - Text 'sandra.barber' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'
+
+26-12-2024T11:54:38 - [TEST_STEP][PASSED] - comment("Step 13: Enter an encrypted password into the password field"): Step 13: Enter an encrypted password into the password field
+
+26-12-2024T11:54:38 - [MESSAGE][INFO] - Step 13: Enter an encrypted password into the password field
+
+26-12-2024T11:54:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_oxd-input oxd-input--active"), EmployeePassword): Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_oxd-input oxd-input--active'
+
+26-12-2024T11:54:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_oxd-input oxd-input--active'
+
+26-12-2024T11:54:38 - [TEST_STEP][PASSED] - comment("Step 14: Enter an encrypted password into the confirm password field"): Step 14: Enter an encrypted password into the confirm password field
+
+26-12-2024T11:54:38 - [MESSAGE][INFO] - Step 14: Enter an encrypted password into the confirm password field
+
+26-12-2024T11:54:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Confirm Password_oxd-input oxd-input-_a3aecb"), EmployeePassword): Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Confirm Password_oxd-input oxd-input-_a3aecb'
+
+26-12-2024T11:54:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Confirm Password_oxd-input oxd-input-_a3aecb'
+
+26-12-2024T11:54:38 - [TEST_STEP][PASSED] - comment("Step 15: Click the "Save" button to finalize adding the new employee"): Step 15: Click the "Save" button to finalize adding the new employee
+
+26-12-2024T11:54:38 - [MESSAGE][INFO] - Step 15: Click the "Save" button to finalize adding the new employee
+
+26-12-2024T11:54:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Save' is clicked on
+
+26-12-2024T11:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Save' is clicked on
+
+26-12-2024T11:54:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-12-2024T11:54:40 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Onboarding" time="11.599" classname="Test Cases/Employee_Onboarding/TC_Employee_Onboarding" status="PASSED">
+         <system-out><![CDATA[26-12-2024T11:54:40 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/TC_Employee_Onboarding: Test Cases/Employee_Onboarding/TC_Employee_Onboarding
+
+26-12-2024T11:54:40 - [TEST_STEP][PASSED] - comment("Step 1: Click on the PIM module link"): Step 1: Click on the PIM module link
+
+26-12-2024T11:54:40 - [MESSAGE][INFO] - Step 1: Click on the PIM module link
+
+26-12-2024T11:54:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T11:54:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T11:54:42 - [TEST_STEP][PASSED] - comment("Step 2: Click the "Add" button to add a new employee"): Step 2: Click the "Add" button to add a new employee
+
+26-12-2024T11:54:42 - [MESSAGE][INFO] - Step 2: Click the "Add" button to add a new employee
+
+26-12-2024T11:54:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Add")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Add' is clicked on
+
+26-12-2024T11:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Add' is clicked on
+
+26-12-2024T11:54:44 - [TEST_STEP][PASSED] - comment("Step 3: Focus on the "First Name" input field"): Step 3: Focus on the "First Name" input field
+
+26-12-2024T11:54:44 - [MESSAGE][INFO] - Step 3: Focus on the "First Name" input field
+
+26-12-2024T11:54:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName' is clicked on
+
+26-12-2024T11:54:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName' is clicked on
+
+26-12-2024T11:54:46 - [TEST_STEP][PASSED] - comment("Step 4: Enter the employee's first name"): Step 4: Enter the employee's first name
+
+26-12-2024T11:54:46 - [MESSAGE][INFO] - Step 4: Enter the employee's first name
+
+26-12-2024T11:54:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName"), Firstname): Text 'Amy' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName'
+
+26-12-2024T11:54:46 - [MESSAGE][PASSED] - Text 'Amy' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName'
+
+26-12-2024T11:54:47 - [TEST_STEP][PASSED] - comment("Step 5: Enter the employee's last name"): Step 5: Enter the employee's last name
+
+26-12-2024T11:54:47 - [MESSAGE][INFO] - Step 5: Enter the employee's last name
+
+26-12-2024T11:54:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName"), Lastname): Text 'Gonzalez' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName'
+
+26-12-2024T11:54:47 - [MESSAGE][PASSED] - Text 'Gonzalez' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName'
+
+26-12-2024T11:54:47 - [TEST_STEP][PASSED] - comment("Step 6: Clear the default value in the "Employee ID" field"): Step 6: Clear the default value in the "Employee ID" field
+
+26-12-2024T11:54:47 - [MESSAGE][INFO] - Step 6: Clear the default value in the "Employee ID" field
+
+26-12-2024T11:54:47 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus")): Text of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus' is cleared
+
+26-12-2024T11:54:47 - [MESSAGE][PASSED] - Text of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus' is cleared
+
+26-12-2024T11:54:47 - [TEST_STEP][PASSED] - comment("Step 7: Set the employee ID field with a new value"): Step 7: Set the employee ID field with a new value
+
+26-12-2024T11:54:47 - [MESSAGE][INFO] - Step 7: Set the employee ID field with a new value
+
+26-12-2024T11:54:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus"), ""): Text '' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus'
+
+26-12-2024T11:54:48 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus'
+
+26-12-2024T11:54:48 - [TEST_STEP][PASSED] - comment("Step 8: Toggle the switch related to the Employee ID"): Step 8: Toggle the switch related to the Employee ID
+
+26-12-2024T11:54:48 - [MESSAGE][INFO] - Step 8: Toggle the switch related to the Employee ID
+
+26-12-2024T11:54:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/span_Employee Id_oxd-switch-input oxd-switc_efe210")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/span_Employee Id_oxd-switch-input oxd-switc_efe210' is clicked on
+
+26-12-2024T11:54:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/span_Employee Id_oxd-switch-input oxd-switc_efe210' is clicked on
+
+26-12-2024T11:54:48 - [TEST_STEP][PASSED] - comment("Step 9: Retrieve the entered first name and convert it to lowercase"): Step 9: Retrieve the entered first name and convert it to lowercase
+
+26-12-2024T11:54:48 - [MESSAGE][INFO] - Step 9: Retrieve the entered first name and convert it to lowercase
+
+26-12-2024T11:54:48 - [TEST_STEP][PASSED] - firstname = getAttribute(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName"), "value").toLowerCase(): Attribute 'value' of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName' is: 'Amy'
+
+26-12-2024T11:54:48 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName' is: 'Amy'
+
+26-12-2024T11:54:48 - [TEST_STEP][PASSED] - comment("Step 10: Retrieve the entered last name and convert it to lowercase"): Step 10: Retrieve the entered last name and convert it to lowercase
+
+26-12-2024T11:54:48 - [MESSAGE][INFO] - Step 10: Retrieve the entered last name and convert it to lowercase
+
+26-12-2024T11:54:48 - [TEST_STEP][PASSED] - lastname = getAttribute(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName"), "value").toLowerCase(): Attribute 'value' of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName' is: 'Gonzalez'
+
+26-12-2024T11:54:49 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName' is: 'Gonzalez'
+
+26-12-2024T11:54:49 - [TEST_STEP][PASSED] - comment("Step 11: Concatenate the first and last names to generate a username"): Step 11: Concatenate the first and last names to generate a username
+
+26-12-2024T11:54:49 - [MESSAGE][INFO] - Step 11: Concatenate the first and last names to generate a username
+
+26-12-2024T11:54:49 - [TEST_STEP][PASSED] - username = firstname + "." + lastname: null
+
+26-12-2024T11:54:49 - [TEST_STEP][PASSED] - comment("Step 12: Set the username field with the generated username"): Step 12: Set the username field with the generated username
+
+26-12-2024T11:54:49 - [MESSAGE][INFO] - Step 12: Set the username field with the generated username
+
+26-12-2024T11:54:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus"), username): Text 'amy.gonzalez' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'
+
+26-12-2024T11:54:49 - [MESSAGE][PASSED] - Text 'amy.gonzalez' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'
+
+26-12-2024T11:54:49 - [TEST_STEP][PASSED] - comment("Step 13: Enter an encrypted password into the password field"): Step 13: Enter an encrypted password into the password field
+
+26-12-2024T11:54:49 - [MESSAGE][INFO] - Step 13: Enter an encrypted password into the password field
+
+26-12-2024T11:54:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_oxd-input oxd-input--active"), EmployeePassword): Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_oxd-input oxd-input--active'
+
+26-12-2024T11:54:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_oxd-input oxd-input--active'
+
+26-12-2024T11:54:49 - [TEST_STEP][PASSED] - comment("Step 14: Enter an encrypted password into the confirm password field"): Step 14: Enter an encrypted password into the confirm password field
+
+26-12-2024T11:54:49 - [MESSAGE][INFO] - Step 14: Enter an encrypted password into the confirm password field
+
+26-12-2024T11:54:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Confirm Password_oxd-input oxd-input-_a3aecb"), EmployeePassword): Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Confirm Password_oxd-input oxd-input-_a3aecb'
+
+26-12-2024T11:54:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Confirm Password_oxd-input oxd-input-_a3aecb'
+
+26-12-2024T11:54:50 - [TEST_STEP][PASSED] - comment("Step 15: Click the "Save" button to finalize adding the new employee"): Step 15: Click the "Save" button to finalize adding the new employee
+
+26-12-2024T11:54:50 - [MESSAGE][INFO] - Step 15: Click the "Save" button to finalize adding the new employee
+
+26-12-2024T11:54:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Save' is clicked on
+
+26-12-2024T11:54:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Save' is clicked on
+
+26-12-2024T11:54:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-12-2024T11:54:52 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Onboarding" time="11.052" classname="Test Cases/Employee_Onboarding/TC_Employee_Onboarding" status="PASSED">
+         <system-out><![CDATA[26-12-2024T11:54:52 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/TC_Employee_Onboarding: Test Cases/Employee_Onboarding/TC_Employee_Onboarding
+
+26-12-2024T11:54:52 - [TEST_STEP][PASSED] - comment("Step 1: Click on the PIM module link"): Step 1: Click on the PIM module link
+
+26-12-2024T11:54:52 - [MESSAGE][INFO] - Step 1: Click on the PIM module link
+
+26-12-2024T11:54:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T11:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T11:54:54 - [TEST_STEP][PASSED] - comment("Step 2: Click the "Add" button to add a new employee"): Step 2: Click the "Add" button to add a new employee
+
+26-12-2024T11:54:54 - [MESSAGE][INFO] - Step 2: Click the "Add" button to add a new employee
+
+26-12-2024T11:54:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Add")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Add' is clicked on
+
+26-12-2024T11:54:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Add' is clicked on
+
+26-12-2024T11:54:56 - [TEST_STEP][PASSED] - comment("Step 3: Focus on the "First Name" input field"): Step 3: Focus on the "First Name" input field
+
+26-12-2024T11:54:56 - [MESSAGE][INFO] - Step 3: Focus on the "First Name" input field
+
+26-12-2024T11:54:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName' is clicked on
+
+26-12-2024T11:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName' is clicked on
+
+26-12-2024T11:54:57 - [TEST_STEP][PASSED] - comment("Step 4: Enter the employee's first name"): Step 4: Enter the employee's first name
+
+26-12-2024T11:54:57 - [MESSAGE][INFO] - Step 4: Enter the employee's first name
+
+26-12-2024T11:54:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName"), Firstname): Text 'Richard' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName'
+
+26-12-2024T11:54:58 - [MESSAGE][PASSED] - Text 'Richard' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName'
+
+26-12-2024T11:54:58 - [TEST_STEP][PASSED] - comment("Step 5: Enter the employee's last name"): Step 5: Enter the employee's last name
+
+26-12-2024T11:54:58 - [MESSAGE][INFO] - Step 5: Enter the employee's last name
+
+26-12-2024T11:54:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName"), Lastname): Text 'Johnson' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName'
+
+26-12-2024T11:54:58 - [MESSAGE][PASSED] - Text 'Johnson' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName'
+
+26-12-2024T11:54:58 - [TEST_STEP][PASSED] - comment("Step 6: Clear the default value in the "Employee ID" field"): Step 6: Clear the default value in the "Employee ID" field
+
+26-12-2024T11:54:58 - [MESSAGE][INFO] - Step 6: Clear the default value in the "Employee ID" field
+
+26-12-2024T11:54:58 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus")): Text of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus' is cleared
+
+26-12-2024T11:54:58 - [MESSAGE][PASSED] - Text of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus' is cleared
+
+26-12-2024T11:54:58 - [TEST_STEP][PASSED] - comment("Step 7: Set the employee ID field with a new value"): Step 7: Set the employee ID field with a new value
+
+26-12-2024T11:54:58 - [MESSAGE][INFO] - Step 7: Set the employee ID field with a new value
+
+26-12-2024T11:54:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus"), ""): Text '' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus'
+
+26-12-2024T11:54:59 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Id_oxd-input oxd-input--focus'
+
+26-12-2024T11:54:59 - [TEST_STEP][PASSED] - comment("Step 8: Toggle the switch related to the Employee ID"): Step 8: Toggle the switch related to the Employee ID
+
+26-12-2024T11:54:59 - [MESSAGE][INFO] - Step 8: Toggle the switch related to the Employee ID
+
+26-12-2024T11:54:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/span_Employee Id_oxd-switch-input oxd-switc_efe210")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/span_Employee Id_oxd-switch-input oxd-switc_efe210' is clicked on
+
+26-12-2024T11:54:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/span_Employee Id_oxd-switch-input oxd-switc_efe210' is clicked on
+
+26-12-2024T11:54:59 - [TEST_STEP][PASSED] - comment("Step 9: Retrieve the entered first name and convert it to lowercase"): Step 9: Retrieve the entered first name and convert it to lowercase
+
+26-12-2024T11:54:59 - [MESSAGE][INFO] - Step 9: Retrieve the entered first name and convert it to lowercase
+
+26-12-2024T11:54:59 - [TEST_STEP][PASSED] - firstname = getAttribute(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName"), "value").toLowerCase(): Attribute 'value' of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName' is: 'Richard'
+
+26-12-2024T11:55:00 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_firstName' is: 'Richard'
+
+26-12-2024T11:55:00 - [TEST_STEP][PASSED] - comment("Step 10: Retrieve the entered last name and convert it to lowercase"): Step 10: Retrieve the entered last name and convert it to lowercase
+
+26-12-2024T11:55:00 - [MESSAGE][INFO] - Step 10: Retrieve the entered last name and convert it to lowercase
+
+26-12-2024T11:55:00 - [TEST_STEP][PASSED] - lastname = getAttribute(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName"), "value").toLowerCase(): Attribute 'value' of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName' is: 'Johnson'
+
+26-12-2024T11:55:00 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Employee Full Name_lastName' is: 'Johnson'
+
+26-12-2024T11:55:00 - [TEST_STEP][PASSED] - comment("Step 11: Concatenate the first and last names to generate a username"): Step 11: Concatenate the first and last names to generate a username
+
+26-12-2024T11:55:00 - [MESSAGE][INFO] - Step 11: Concatenate the first and last names to generate a username
+
+26-12-2024T11:55:00 - [TEST_STEP][PASSED] - username = firstname + "." + lastname: null
+
+26-12-2024T11:55:00 - [TEST_STEP][PASSED] - comment("Step 12: Set the username field with the generated username"): Step 12: Set the username field with the generated username
+
+26-12-2024T11:55:00 - [MESSAGE][INFO] - Step 12: Set the username field with the generated username
+
+26-12-2024T11:55:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus"), username): Text 'richard.johnson' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'
+
+26-12-2024T11:55:00 - [MESSAGE][PASSED] - Text 'richard.johnson' is set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Username_oxd-input oxd-input--focus'
+
+26-12-2024T11:55:00 - [TEST_STEP][PASSED] - comment("Step 13: Enter an encrypted password into the password field"): Step 13: Enter an encrypted password into the password field
+
+26-12-2024T11:55:00 - [MESSAGE][INFO] - Step 13: Enter an encrypted password into the password field
+
+26-12-2024T11:55:00 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_oxd-input oxd-input--active"), EmployeePassword): Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_oxd-input oxd-input--active'
+
+26-12-2024T11:55:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Password_oxd-input oxd-input--active'
+
+26-12-2024T11:55:01 - [TEST_STEP][PASSED] - comment("Step 14: Enter an encrypted password into the confirm password field"): Step 14: Enter an encrypted password into the confirm password field
+
+26-12-2024T11:55:01 - [MESSAGE][INFO] - Step 14: Enter an encrypted password into the confirm password field
+
+26-12-2024T11:55:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Confirm Password_oxd-input oxd-input-_a3aecb"), EmployeePassword): Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Confirm Password_oxd-input oxd-input-_a3aecb'
+
+26-12-2024T11:55:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Employee-Onboarding/Page_OrangeHRM/input_Confirm Password_oxd-input oxd-input-_a3aecb'
+
+26-12-2024T11:55:01 - [TEST_STEP][PASSED] - comment("Step 15: Click the "Save" button to finalize adding the new employee"): Step 15: Click the "Save" button to finalize adding the new employee
+
+26-12-2024T11:55:01 - [MESSAGE][INFO] - Step 15: Click the "Save" button to finalize adding the new employee
+
+26-12-2024T11:55:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Save' is clicked on
+
+26-12-2024T11:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Page_OrangeHRM/button_Save' is clicked on
+
+26-12-2024T11:55:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-12-2024T11:55:03 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Job_Details" time="17.643" classname="Test Cases/Employee_Onboarding/TC_Employee_Job_Details" status="PASSED">
+         <system-out><![CDATA[26-12-2024T11:55:03 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/TC_Employee_Job_Details: Test Cases/Employee_Onboarding/TC_Employee_Job_Details
+
+26-12-2024T11:55:03 - [TEST_STEP][PASSED] - comment("Step 1: Click on the "PIM" tab to access the Employee Management section"): Step 1: Click on the "PIM" tab to access the Employee Management section
+
+26-12-2024T11:55:03 - [MESSAGE][INFO] - Step 1: Click on the "PIM" tab to access the Employee Management section
+
+26-12-2024T11:55:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T11:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T11:55:05 - [TEST_STEP][PASSED] - comment("Step 2: Set the employee name "Alice Johnson" in the search input field"): Step 2: Set the employee name "Alice Johnson" in the search input field
+
+26-12-2024T11:55:05 - [MESSAGE][INFO] - Step 2: Set the employee name "Alice Johnson" in the search input field
+
+26-12-2024T11:55:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input"), Fullname): Text 'Sandra Barber' is set on object 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input'
+
+26-12-2024T11:55:07 - [MESSAGE][PASSED] - Text 'Sandra Barber' is set on object 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input'
+
+26-12-2024T11:55:07 - [TEST_STEP][PASSED] - comment("Step 3: Click the "Search" button to search for the employee"): Step 3: Click the "Search" button to search for the employee
+
+26-12-2024T11:55:07 - [MESSAGE][INFO] - Step 3: Click the "Search" button to search for the employee
+
+26-12-2024T11:55:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search' is clicked on
+
+26-12-2024T11:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search' is clicked on
+
+26-12-2024T11:55:07 - [TEST_STEP][PASSED] - comment("Step 1: Select the employee record by clicking on the employee ID"): Step 1: Select the employee record by clicking on the employee ID
+
+26-12-2024T11:55:07 - [MESSAGE][INFO] - Step 1: Select the employee record by clicking on the employee ID
+
+26-12-2024T11:55:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_0034008")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_0034008' is clicked on
+
+26-12-2024T11:55:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_0034008' is clicked on
+
+26-12-2024T11:55:09 - [TEST_STEP][PASSED] - comment("Step 2: Click on the "Job" tab in the employee details section"): Step 2: Click on the "Job" tab in the employee details section
+
+26-12-2024T11:55:09 - [MESSAGE][INFO] - Step 2: Click on the "Job" tab in the employee details section
+
+26-12-2024T11:55:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_Job")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_Job' is clicked on
+
+26-12-2024T11:55:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_Job' is clicked on
+
+26-12-2024T11:55:12 - [TEST_STEP][PASSED] - comment("Step 3: Open the date picker for "Joined Date""): Step 3: Open the date picker for "Joined Date"
+
+26-12-2024T11:55:12 - [MESSAGE][INFO] - Step 3: Open the date picker for "Joined Date"
+
+26-12-2024T11:55:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_Joined Date_oxd-icon bi-calendar oxd-date_38329e")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_Joined Date_oxd-icon bi-calendar oxd-date_38329e' is clicked on
+
+26-12-2024T11:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_Joined Date_oxd-icon bi-calendar oxd-date_38329e' is clicked on
+
+26-12-2024T11:55:15 - [TEST_STEP][PASSED] - comment("Step 4: Select the 31st as the "Joined Date""): Step 4: Select the 31st as the "Joined Date"
+
+26-12-2024T11:55:15 - [MESSAGE][INFO] - Step 4: Select the 31st as the "Joined Date"
+
+26-12-2024T11:55:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_31")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_31' is clicked on
+
+26-12-2024T11:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_31' is clicked on
+
+26-12-2024T11:55:15 - [TEST_STEP][PASSED] - comment("Step 5: Open the dropdown menu to make selections (e.g., job title, employment type)"): Step 5: Open the dropdown menu to make selections (e.g., job title, employment type)
+
+26-12-2024T11:55:15 - [MESSAGE][INFO] - Step 5: Open the dropdown menu to make selections (e.g., job title, employment type)
+
+26-12-2024T11:55:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+26-12-2024T11:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+26-12-2024T11:55:15 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Job_Title])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:16 - [TEST_STEP][PASSED] - comment("Step 6: Select the desired job option from the dropdown"): Step 6: Select the desired job option from the dropdown
+
+26-12-2024T11:55:16 - [MESSAGE][INFO] - Step 6: Select the desired job option from the dropdown
+
+26-12-2024T11:55:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1' is clicked on
+
+26-12-2024T11:55:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1' is clicked on
+
+26-12-2024T11:55:17 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Job_Category])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:18 - [TEST_STEP][PASSED] - comment("Step 7: Select the desired job category from the dropdown"): Step 7: Select the desired job category from the dropdown
+
+26-12-2024T11:55:18 - [MESSAGE][INFO] - Step 7: Select the desired job category from the dropdown
+
+26-12-2024T11:55:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2' is clicked on
+
+26-12-2024T11:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2' is clicked on
+
+26-12-2024T11:55:18 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Sub_Unit])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:18 - [TEST_STEP][PASSED] - comment("Step 8: Select the desired sub-category from the dropdown"): Step 8: Select the desired sub-category from the dropdown
+
+26-12-2024T11:55:18 - [MESSAGE][INFO] - Step 8: Select the desired sub-category from the dropdown
+
+26-12-2024T11:55:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3' is clicked on
+
+26-12-2024T11:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3' is clicked on
+
+26-12-2024T11:55:19 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Location])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:19 - [TEST_STEP][PASSED] - comment("Step 9: Finalize the job details by selecting the appropriate options from the dropdown"): Step 9: Finalize the job details by selecting the appropriate options from the dropdown
+
+26-12-2024T11:55:19 - [MESSAGE][INFO] - Step 9: Finalize the job details by selecting the appropriate options from the dropdown
+
+26-12-2024T11:55:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3_4")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3_4' is clicked on
+
+26-12-2024T11:55:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3_4' is clicked on
+
+26-12-2024T11:55:20 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Employee_Status])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:20 - [TEST_STEP][PASSED] - comment("Step 10: Click the "Save" button to save the updated job details for the employee"): Step 10: Click the "Save" button to save the updated job details for the employee
+
+26-12-2024T11:55:20 - [MESSAGE][INFO] - Step 10: Click the "Save" button to save the updated job details for the employee
+
+26-12-2024T11:55:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Save' is clicked on
+
+26-12-2024T11:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Job_Details" time="19.013" classname="Test Cases/Employee_Onboarding/TC_Employee_Job_Details" status="PASSED">
+         <system-out><![CDATA[26-12-2024T11:55:21 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/TC_Employee_Job_Details: Test Cases/Employee_Onboarding/TC_Employee_Job_Details
+
+26-12-2024T11:55:21 - [TEST_STEP][PASSED] - comment("Step 1: Click on the "PIM" tab to access the Employee Management section"): Step 1: Click on the "PIM" tab to access the Employee Management section
+
+26-12-2024T11:55:21 - [MESSAGE][INFO] - Step 1: Click on the "PIM" tab to access the Employee Management section
+
+26-12-2024T11:55:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T11:55:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T11:55:23 - [TEST_STEP][PASSED] - comment("Step 2: Set the employee name "Alice Johnson" in the search input field"): Step 2: Set the employee name "Alice Johnson" in the search input field
+
+26-12-2024T11:55:23 - [MESSAGE][INFO] - Step 2: Set the employee name "Alice Johnson" in the search input field
+
+26-12-2024T11:55:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input"), Fullname): Text 'Amy Gonzalez' is set on object 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input'
+
+26-12-2024T11:55:26 - [MESSAGE][PASSED] - Text 'Amy Gonzalez' is set on object 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input'
+
+26-12-2024T11:55:26 - [TEST_STEP][PASSED] - comment("Step 3: Click the "Search" button to search for the employee"): Step 3: Click the "Search" button to search for the employee
+
+26-12-2024T11:55:26 - [MESSAGE][INFO] - Step 3: Click the "Search" button to search for the employee
+
+26-12-2024T11:55:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search' is clicked on
+
+26-12-2024T11:55:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search' is clicked on
+
+26-12-2024T11:55:26 - [TEST_STEP][PASSED] - comment("Step 1: Select the employee record by clicking on the employee ID"): Step 1: Select the employee record by clicking on the employee ID
+
+26-12-2024T11:55:26 - [MESSAGE][INFO] - Step 1: Select the employee record by clicking on the employee ID
+
+26-12-2024T11:55:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_0034008")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_0034008' is clicked on
+
+26-12-2024T11:55:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_0034008' is clicked on
+
+26-12-2024T11:55:28 - [TEST_STEP][PASSED] - comment("Step 2: Click on the "Job" tab in the employee details section"): Step 2: Click on the "Job" tab in the employee details section
+
+26-12-2024T11:55:28 - [MESSAGE][INFO] - Step 2: Click on the "Job" tab in the employee details section
+
+26-12-2024T11:55:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_Job")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_Job' is clicked on
+
+26-12-2024T11:55:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_Job' is clicked on
+
+26-12-2024T11:55:31 - [TEST_STEP][PASSED] - comment("Step 3: Open the date picker for "Joined Date""): Step 3: Open the date picker for "Joined Date"
+
+26-12-2024T11:55:31 - [MESSAGE][INFO] - Step 3: Open the date picker for "Joined Date"
+
+26-12-2024T11:55:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_Joined Date_oxd-icon bi-calendar oxd-date_38329e")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_Joined Date_oxd-icon bi-calendar oxd-date_38329e' is clicked on
+
+26-12-2024T11:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_Joined Date_oxd-icon bi-calendar oxd-date_38329e' is clicked on
+
+26-12-2024T11:55:34 - [TEST_STEP][PASSED] - comment("Step 4: Select the 31st as the "Joined Date""): Step 4: Select the 31st as the "Joined Date"
+
+26-12-2024T11:55:34 - [MESSAGE][INFO] - Step 4: Select the 31st as the "Joined Date"
+
+26-12-2024T11:55:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_31")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_31' is clicked on
+
+26-12-2024T11:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_31' is clicked on
+
+26-12-2024T11:55:34 - [TEST_STEP][PASSED] - comment("Step 5: Open the dropdown menu to make selections (e.g., job title, employment type)"): Step 5: Open the dropdown menu to make selections (e.g., job title, employment type)
+
+26-12-2024T11:55:34 - [MESSAGE][INFO] - Step 5: Open the dropdown menu to make selections (e.g., job title, employment type)
+
+26-12-2024T11:55:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+26-12-2024T11:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+26-12-2024T11:55:35 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Job_Title])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:35 - [TEST_STEP][PASSED] - comment("Step 6: Select the desired job option from the dropdown"): Step 6: Select the desired job option from the dropdown
+
+26-12-2024T11:55:35 - [MESSAGE][INFO] - Step 6: Select the desired job option from the dropdown
+
+26-12-2024T11:55:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1' is clicked on
+
+26-12-2024T11:55:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1' is clicked on
+
+26-12-2024T11:55:36 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Job_Category])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:37 - [TEST_STEP][PASSED] - comment("Step 7: Select the desired job category from the dropdown"): Step 7: Select the desired job category from the dropdown
+
+26-12-2024T11:55:37 - [MESSAGE][INFO] - Step 7: Select the desired job category from the dropdown
+
+26-12-2024T11:55:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2' is clicked on
+
+26-12-2024T11:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2' is clicked on
+
+26-12-2024T11:55:37 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Sub_Unit])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:37 - [TEST_STEP][PASSED] - comment("Step 8: Select the desired sub-category from the dropdown"): Step 8: Select the desired sub-category from the dropdown
+
+26-12-2024T11:55:37 - [MESSAGE][INFO] - Step 8: Select the desired sub-category from the dropdown
+
+26-12-2024T11:55:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3' is clicked on
+
+26-12-2024T11:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3' is clicked on
+
+26-12-2024T11:55:38 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Location])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:38 - [TEST_STEP][PASSED] - comment("Step 9: Finalize the job details by selecting the appropriate options from the dropdown"): Step 9: Finalize the job details by selecting the appropriate options from the dropdown
+
+26-12-2024T11:55:38 - [MESSAGE][INFO] - Step 9: Finalize the job details by selecting the appropriate options from the dropdown
+
+26-12-2024T11:55:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3_4")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3_4' is clicked on
+
+26-12-2024T11:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3_4' is clicked on
+
+26-12-2024T11:55:39 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Employee_Status])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:39 - [TEST_STEP][PASSED] - comment("Step 10: Click the "Save" button to save the updated job details for the employee"): Step 10: Click the "Save" button to save the updated job details for the employee
+
+26-12-2024T11:55:39 - [MESSAGE][INFO] - Step 10: Click the "Save" button to save the updated job details for the employee
+
+26-12-2024T11:55:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Save' is clicked on
+
+26-12-2024T11:55:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Job_Details" time="16.851" classname="Test Cases/Employee_Onboarding/TC_Employee_Job_Details" status="PASSED">
+         <system-out><![CDATA[26-12-2024T11:55:40 - [TEST_CASE][PASSED] - Test Cases/Employee_Onboarding/TC_Employee_Job_Details: Test Cases/Employee_Onboarding/TC_Employee_Job_Details
+
+26-12-2024T11:55:40 - [TEST_STEP][PASSED] - comment("Step 1: Click on the "PIM" tab to access the Employee Management section"): Step 1: Click on the "PIM" tab to access the Employee Management section
+
+26-12-2024T11:55:40 - [MESSAGE][INFO] - Step 1: Click on the "PIM" tab to access the Employee Management section
+
+26-12-2024T11:55:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T11:55:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T11:55:42 - [TEST_STEP][PASSED] - comment("Step 2: Set the employee name "Alice Johnson" in the search input field"): Step 2: Set the employee name "Alice Johnson" in the search input field
+
+26-12-2024T11:55:42 - [MESSAGE][INFO] - Step 2: Set the employee name "Alice Johnson" in the search input field
+
+26-12-2024T11:55:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input"), Fullname): Text 'Richard Johnson' is set on object 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input'
+
+26-12-2024T11:55:44 - [MESSAGE][PASSED] - Text 'Richard Johnson' is set on object 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input'
+
+26-12-2024T11:55:44 - [TEST_STEP][PASSED] - comment("Step 3: Click the "Search" button to search for the employee"): Step 3: Click the "Search" button to search for the employee
+
+26-12-2024T11:55:44 - [MESSAGE][INFO] - Step 3: Click the "Search" button to search for the employee
+
+26-12-2024T11:55:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search' is clicked on
+
+26-12-2024T11:55:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search' is clicked on
+
+26-12-2024T11:55:44 - [TEST_STEP][PASSED] - comment("Step 1: Select the employee record by clicking on the employee ID"): Step 1: Select the employee record by clicking on the employee ID
+
+26-12-2024T11:55:44 - [MESSAGE][INFO] - Step 1: Select the employee record by clicking on the employee ID
+
+26-12-2024T11:55:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_0034008")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_0034008' is clicked on
+
+26-12-2024T11:55:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_0034008' is clicked on
+
+26-12-2024T11:55:46 - [TEST_STEP][PASSED] - comment("Step 2: Click on the "Job" tab in the employee details section"): Step 2: Click on the "Job" tab in the employee details section
+
+26-12-2024T11:55:46 - [MESSAGE][INFO] - Step 2: Click on the "Job" tab in the employee details section
+
+26-12-2024T11:55:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_Job")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_Job' is clicked on
+
+26-12-2024T11:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_Job' is clicked on
+
+26-12-2024T11:55:49 - [TEST_STEP][PASSED] - comment("Step 3: Open the date picker for "Joined Date""): Step 3: Open the date picker for "Joined Date"
+
+26-12-2024T11:55:49 - [MESSAGE][INFO] - Step 3: Open the date picker for "Joined Date"
+
+26-12-2024T11:55:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_Joined Date_oxd-icon bi-calendar oxd-date_38329e")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_Joined Date_oxd-icon bi-calendar oxd-date_38329e' is clicked on
+
+26-12-2024T11:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_Joined Date_oxd-icon bi-calendar oxd-date_38329e' is clicked on
+
+26-12-2024T11:55:51 - [TEST_STEP][PASSED] - comment("Step 4: Select the 31st as the "Joined Date""): Step 4: Select the 31st as the "Joined Date"
+
+26-12-2024T11:55:51 - [MESSAGE][INFO] - Step 4: Select the 31st as the "Joined Date"
+
+26-12-2024T11:55:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_31")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_31' is clicked on
+
+26-12-2024T11:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/div_31' is clicked on
+
+26-12-2024T11:55:51 - [TEST_STEP][PASSED] - comment("Step 5: Open the dropdown menu to make selections (e.g., job title, employment type)"): Step 5: Open the dropdown menu to make selections (e.g., job title, employment type)
+
+26-12-2024T11:55:51 - [MESSAGE][INFO] - Step 5: Open the dropdown menu to make selections (e.g., job title, employment type)
+
+26-12-2024T11:55:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+26-12-2024T11:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+26-12-2024T11:55:52 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Job_Title])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:52 - [TEST_STEP][PASSED] - comment("Step 6: Select the desired job option from the dropdown"): Step 6: Select the desired job option from the dropdown
+
+26-12-2024T11:55:52 - [MESSAGE][INFO] - Step 6: Select the desired job option from the dropdown
+
+26-12-2024T11:55:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1' is clicked on
+
+26-12-2024T11:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1' is clicked on
+
+26-12-2024T11:55:53 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Job_Category])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:53 - [TEST_STEP][PASSED] - comment("Step 7: Select the desired job category from the dropdown"): Step 7: Select the desired job category from the dropdown
+
+26-12-2024T11:55:53 - [MESSAGE][INFO] - Step 7: Select the desired job category from the dropdown
+
+26-12-2024T11:55:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2' is clicked on
+
+26-12-2024T11:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2' is clicked on
+
+26-12-2024T11:55:54 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Sub_Unit])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:54 - [TEST_STEP][PASSED] - comment("Step 8: Select the desired sub-category from the dropdown"): Step 8: Select the desired sub-category from the dropdown
+
+26-12-2024T11:55:54 - [MESSAGE][INFO] - Step 8: Select the desired sub-category from the dropdown
+
+26-12-2024T11:55:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3' is clicked on
+
+26-12-2024T11:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3' is clicked on
+
+26-12-2024T11:55:55 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Location])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:55 - [TEST_STEP][PASSED] - comment("Step 9: Finalize the job details by selecting the appropriate options from the dropdown"): Step 9: Finalize the job details by selecting the appropriate options from the dropdown
+
+26-12-2024T11:55:55 - [MESSAGE][INFO] - Step 9: Finalize the job details by selecting the appropriate options from the dropdown
+
+26-12-2024T11:55:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3_4")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3_4' is clicked on
+
+26-12-2024T11:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec_1_2_3_4' is clicked on
+
+26-12-2024T11:55:56 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Employee_Status])): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:55:56 - [TEST_STEP][PASSED] - comment("Step 10: Click the "Save" button to save the updated job details for the employee"): Step 10: Click the "Save" button to save the updated job details for the employee
+
+26-12-2024T11:55:56 - [MESSAGE][INFO] - Step 10: Click the "Save" button to save the updated job details for the employee
+
+26-12-2024T11:55:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Save")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Save' is clicked on
+
+26-12-2024T11:55:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Save' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Salary_Details" time="11.912" classname="Test Cases/Employee_Onboarding/TC_Employee_Salary_Details" status="ERROR">
+         <error type="ERROR" message="Test Cases/Employee_Onboarding/TC_Employee_Salary_Details FAILED.&#xa;Reason:&#xa;groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.Delay() is applicable for argument types: (Integer) values: [2]&#xa;Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), getAt(java.lang.String), sleep(long)&#xa;	at TC_Employee_Salary_Details.run(TC_Employee_Salary_Details:68)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)&#xa;	at TempTestSuite1735194241123.run(TempTestSuite1735194241123.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[26-12-2024T11:56:32 - [TEST_CASE][ERROR] - Test Cases/Employee_Onboarding/TC_Employee_Salary_Details: Test Cases/Employee_Onboarding/TC_Employee_Salary_Details FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.Delay() is applicable for argument types: (Integer) values: [2]
+Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), getAt(java.lang.String), sleep(long)
+	at TC_Employee_Salary_Details.run(TC_Employee_Salary_Details:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1735194241123.run(TempTestSuite1735194241123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+26-12-2024T11:56:32 - [TEST_STEP][PASSED] - comment("Step 1: Click on the "PIM" tab to access the Employee Management section"): Step 1: Click on the "PIM" tab to access the Employee Management section
+
+26-12-2024T11:56:32 - [MESSAGE][INFO] - Step 1: Click on the "PIM" tab to access the Employee Management section
+
+26-12-2024T11:56:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T11:56:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T11:56:34 - [TEST_STEP][PASSED] - comment("Step 2: Set the employee name "Alice Johnson" in the search input field"): Step 2: Set the employee name "Alice Johnson" in the search input field
+
+26-12-2024T11:56:34 - [MESSAGE][INFO] - Step 2: Set the employee name "Alice Johnson" in the search input field
+
+26-12-2024T11:56:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input"), Fullname): Text 'Sandra Barber' is set on object 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input'
+
+26-12-2024T11:56:36 - [MESSAGE][PASSED] - Text 'Sandra Barber' is set on object 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input'
+
+26-12-2024T11:56:36 - [TEST_STEP][PASSED] - comment("Step 3: Click the "Search" button to search for the employee"): Step 3: Click the "Search" button to search for the employee
+
+26-12-2024T11:56:36 - [MESSAGE][INFO] - Step 3: Click the "Search" button to search for the employee
+
+26-12-2024T11:56:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search' is clicked on
+
+26-12-2024T11:56:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search' is clicked on
+
+26-12-2024T11:56:36 - [TEST_STEP][PASSED] - comment("Step 1: Click on the employee record to open the salary details page"): Step 1: Click on the employee record to open the salary details page
+
+26-12-2024T11:56:36 - [MESSAGE][INFO] - Step 1: Click on the employee record to open the salary details page
+
+26-12-2024T11:56:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/div_0034008")): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/div_0034008' is clicked on
+
+26-12-2024T11:56:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/div_0034008' is clicked on
+
+26-12-2024T11:56:38 - [TEST_STEP][PASSED] - comment("Step 2: Click on the "Salary" tab to access salary-related information"): Step 2: Click on the "Salary" tab to access salary-related information
+
+26-12-2024T11:56:38 - [MESSAGE][INFO] - Step 2: Click on the "Salary" tab to access salary-related information
+
+26-12-2024T11:56:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/a_Salary")): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/a_Salary' is clicked on
+
+26-12-2024T11:56:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/a_Salary' is clicked on
+
+26-12-2024T11:56:41 - [TEST_STEP][PASSED] - comment("Step 3: Click on the "Add" button to add a new salary record"): Step 3: Click on the "Add" button to add a new salary record
+
+26-12-2024T11:56:41 - [MESSAGE][INFO] - Step 3: Click on the "Add" button to add a new salary record
+
+26-12-2024T11:56:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/button_Add")): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/button_Add' is clicked on
+
+26-12-2024T11:56:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/button_Add' is clicked on
+
+26-12-2024T11:56:43 - [TEST_STEP][PASSED] - comment("Step 4: Set the salary component field to "CTC""): Step 4: Set the salary component field to "CTC"
+
+26-12-2024T11:56:43 - [MESSAGE][INFO] - Step 4: Set the salary component field to "CTC"
+
+26-12-2024T11:56:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus"), Salary_Component): Text 'Basic Pay' is set on object 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus'
+
+26-12-2024T11:56:43 - [MESSAGE][PASSED] - Text 'Basic Pay' is set on object 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus'
+
+26-12-2024T11:56:43 - [TEST_STEP][PASSED] - comment("Step 5: Click on the dropdown to select the "Grade" option"): Step 5: Click on the dropdown to select the "Grade" option
+
+26-12-2024T11:56:43 - [MESSAGE][INFO] - Step 5: Click on the dropdown to select the "Grade" option
+
+26-12-2024T11:56:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec")): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+26-12-2024T11:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+26-12-2024T11:56:44 - [TEST_STEP][PASSED] - comment("Step 6: Select "Grade 1" from the dropdown for the grade"): Step 6: Select "Grade 1" from the dropdown for the grade
+
+26-12-2024T11:56:44 - [MESSAGE][INFO] - Step 6: Select "Grade 1" from the dropdown for the grade
+
+26-12-2024T11:56:44 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Pay_Grade]), STOP_ON_FAILURE): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:56:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:56:44 - [TEST_STEP][ERROR] - Delay(2): Test Cases/Employee_Onboarding/TC_Employee_Salary_Details FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.Delay() is applicable for argument types: (Integer) values: [2]
+Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), getAt(java.lang.String), sleep(long)
+	at TC_Employee_Salary_Details.run(TC_Employee_Salary_Details:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1735194241123.run(TempTestSuite1735194241123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+26-12-2024T11:56:44 - [MESSAGE][ERROR] - Test Cases/Employee_Onboarding/TC_Employee_Salary_Details FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.Delay() is applicable for argument types: (Integer) values: [2]
+Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), getAt(java.lang.String), sleep(long)
+	at TC_Employee_Salary_Details.run(TC_Employee_Salary_Details:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1735194241123.run(TempTestSuite1735194241123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[26-12-2024T11:56:32 - [TEST_CASE][ERROR] - Test Cases/Employee_Onboarding/TC_Employee_Salary_Details: Test Cases/Employee_Onboarding/TC_Employee_Salary_Details FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.Delay() is applicable for argument types: (Integer) values: [2]
+Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), getAt(java.lang.String), sleep(long)
+	at TC_Employee_Salary_Details.run(TC_Employee_Salary_Details:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1735194241123.run(TempTestSuite1735194241123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Salary_Details" time="12.359" classname="Test Cases/Employee_Onboarding/TC_Employee_Salary_Details" status="ERROR">
+         <error type="ERROR" message="Test Cases/Employee_Onboarding/TC_Employee_Salary_Details FAILED.&#xa;Reason:&#xa;groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.Delay() is applicable for argument types: (Integer) values: [2]&#xa;Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), getAt(java.lang.String), sleep(long)&#xa;	at TC_Employee_Salary_Details.run(TC_Employee_Salary_Details:68)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)&#xa;	at TempTestSuite1735194241123.run(TempTestSuite1735194241123.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[26-12-2024T11:57:20 - [TEST_CASE][ERROR] - Test Cases/Employee_Onboarding/TC_Employee_Salary_Details: Test Cases/Employee_Onboarding/TC_Employee_Salary_Details FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.Delay() is applicable for argument types: (Integer) values: [2]
+Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), getAt(java.lang.String), sleep(long)
+	at TC_Employee_Salary_Details.run(TC_Employee_Salary_Details:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1735194241123.run(TempTestSuite1735194241123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+26-12-2024T11:57:20 - [TEST_STEP][PASSED] - comment("Step 1: Click on the "PIM" tab to access the Employee Management section"): Step 1: Click on the "PIM" tab to access the Employee Management section
+
+26-12-2024T11:57:20 - [MESSAGE][INFO] - Step 1: Click on the "PIM" tab to access the Employee Management section
+
+26-12-2024T11:57:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T11:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T11:57:22 - [TEST_STEP][PASSED] - comment("Step 2: Set the employee name "Alice Johnson" in the search input field"): Step 2: Set the employee name "Alice Johnson" in the search input field
+
+26-12-2024T11:57:22 - [MESSAGE][INFO] - Step 2: Set the employee name "Alice Johnson" in the search input field
+
+26-12-2024T11:57:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input"), Fullname): Text 'Amy Gonzalez' is set on object 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input'
+
+26-12-2024T11:57:24 - [MESSAGE][PASSED] - Text 'Amy Gonzalez' is set on object 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input'
+
+26-12-2024T11:57:24 - [TEST_STEP][PASSED] - comment("Step 3: Click the "Search" button to search for the employee"): Step 3: Click the "Search" button to search for the employee
+
+26-12-2024T11:57:24 - [MESSAGE][INFO] - Step 3: Click the "Search" button to search for the employee
+
+26-12-2024T11:57:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search' is clicked on
+
+26-12-2024T11:57:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search' is clicked on
+
+26-12-2024T11:57:25 - [TEST_STEP][PASSED] - comment("Step 1: Click on the employee record to open the salary details page"): Step 1: Click on the employee record to open the salary details page
+
+26-12-2024T11:57:25 - [MESSAGE][INFO] - Step 1: Click on the employee record to open the salary details page
+
+26-12-2024T11:57:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/div_0034008")): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/div_0034008' is clicked on
+
+26-12-2024T11:57:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/div_0034008' is clicked on
+
+26-12-2024T11:57:26 - [TEST_STEP][PASSED] - comment("Step 2: Click on the "Salary" tab to access salary-related information"): Step 2: Click on the "Salary" tab to access salary-related information
+
+26-12-2024T11:57:26 - [MESSAGE][INFO] - Step 2: Click on the "Salary" tab to access salary-related information
+
+26-12-2024T11:57:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/a_Salary")): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/a_Salary' is clicked on
+
+26-12-2024T11:57:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/a_Salary' is clicked on
+
+26-12-2024T11:57:29 - [TEST_STEP][PASSED] - comment("Step 3: Click on the "Add" button to add a new salary record"): Step 3: Click on the "Add" button to add a new salary record
+
+26-12-2024T11:57:29 - [MESSAGE][INFO] - Step 3: Click on the "Add" button to add a new salary record
+
+26-12-2024T11:57:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/button_Add")): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/button_Add' is clicked on
+
+26-12-2024T11:57:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/button_Add' is clicked on
+
+26-12-2024T11:57:31 - [TEST_STEP][PASSED] - comment("Step 4: Set the salary component field to "CTC""): Step 4: Set the salary component field to "CTC"
+
+26-12-2024T11:57:31 - [MESSAGE][INFO] - Step 4: Set the salary component field to "CTC"
+
+26-12-2024T11:57:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus"), Salary_Component): Text 'Basic Pay' is set on object 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus'
+
+26-12-2024T11:57:32 - [MESSAGE][PASSED] - Text 'Basic Pay' is set on object 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus'
+
+26-12-2024T11:57:32 - [TEST_STEP][PASSED] - comment("Step 5: Click on the dropdown to select the "Grade" option"): Step 5: Click on the dropdown to select the "Grade" option
+
+26-12-2024T11:57:32 - [MESSAGE][INFO] - Step 5: Click on the dropdown to select the "Grade" option
+
+26-12-2024T11:57:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec")): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+26-12-2024T11:57:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+26-12-2024T11:57:32 - [TEST_STEP][PASSED] - comment("Step 6: Select "Grade 1" from the dropdown for the grade"): Step 6: Select "Grade 1" from the dropdown for the grade
+
+26-12-2024T11:57:32 - [MESSAGE][INFO] - Step 6: Select "Grade 1" from the dropdown for the grade
+
+26-12-2024T11:57:32 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Pay_Grade]), STOP_ON_FAILURE): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:57:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:57:32 - [TEST_STEP][ERROR] - Delay(2): Test Cases/Employee_Onboarding/TC_Employee_Salary_Details FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.Delay() is applicable for argument types: (Integer) values: [2]
+Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), getAt(java.lang.String), sleep(long)
+	at TC_Employee_Salary_Details.run(TC_Employee_Salary_Details:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1735194241123.run(TempTestSuite1735194241123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+26-12-2024T11:57:32 - [MESSAGE][ERROR] - Test Cases/Employee_Onboarding/TC_Employee_Salary_Details FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.Delay() is applicable for argument types: (Integer) values: [2]
+Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), getAt(java.lang.String), sleep(long)
+	at TC_Employee_Salary_Details.run(TC_Employee_Salary_Details:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1735194241123.run(TempTestSuite1735194241123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[26-12-2024T11:57:20 - [TEST_CASE][ERROR] - Test Cases/Employee_Onboarding/TC_Employee_Salary_Details: Test Cases/Employee_Onboarding/TC_Employee_Salary_Details FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.Delay() is applicable for argument types: (Integer) values: [2]
+Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), getAt(java.lang.String), sleep(long)
+	at TC_Employee_Salary_Details.run(TC_Employee_Salary_Details:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1735194241123.run(TempTestSuite1735194241123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee_Onboarding/TC_Employee_Salary_Details" time="12.202" classname="Test Cases/Employee_Onboarding/TC_Employee_Salary_Details" status="ERROR">
+         <error type="ERROR" message="Test Cases/Employee_Onboarding/TC_Employee_Salary_Details FAILED.&#xa;Reason:&#xa;groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.Delay() is applicable for argument types: (Integer) values: [2]&#xa;Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), getAt(java.lang.String), sleep(long)&#xa;	at TC_Employee_Salary_Details.run(TC_Employee_Salary_Details:68)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)&#xa;	at TempTestSuite1735194241123.run(TempTestSuite1735194241123.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[26-12-2024T11:58:09 - [TEST_CASE][ERROR] - Test Cases/Employee_Onboarding/TC_Employee_Salary_Details: Test Cases/Employee_Onboarding/TC_Employee_Salary_Details FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.Delay() is applicable for argument types: (Integer) values: [2]
+Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), getAt(java.lang.String), sleep(long)
+	at TC_Employee_Salary_Details.run(TC_Employee_Salary_Details:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1735194241123.run(TempTestSuite1735194241123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+26-12-2024T11:58:09 - [TEST_STEP][PASSED] - comment("Step 1: Click on the "PIM" tab to access the Employee Management section"): Step 1: Click on the "PIM" tab to access the Employee Management section
+
+26-12-2024T11:58:09 - [MESSAGE][INFO] - Step 1: Click on the "PIM" tab to access the Employee Management section
+
+26-12-2024T11:58:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T11:58:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/a_PIM' is clicked on
+
+26-12-2024T11:58:11 - [TEST_STEP][PASSED] - comment("Step 2: Set the employee name "Alice Johnson" in the search input field"): Step 2: Set the employee name "Alice Johnson" in the search input field
+
+26-12-2024T11:58:11 - [MESSAGE][INFO] - Step 2: Set the employee name "Alice Johnson" in the search input field
+
+26-12-2024T11:58:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input"), Fullname): Text 'Richard Johnson' is set on object 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input'
+
+26-12-2024T11:58:13 - [MESSAGE][PASSED] - Text 'Richard Johnson' is set on object 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/input'
+
+26-12-2024T11:58:13 - [TEST_STEP][PASSED] - comment("Step 3: Click the "Search" button to search for the employee"): Step 3: Click the "Search" button to search for the employee
+
+26-12-2024T11:58:13 - [MESSAGE][INFO] - Step 3: Click the "Search" button to search for the employee
+
+26-12-2024T11:58:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search")): Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search' is clicked on
+
+26-12-2024T11:58:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Jobs/Page_OrangeHRM/button_Search' is clicked on
+
+26-12-2024T11:58:13 - [TEST_STEP][PASSED] - comment("Step 1: Click on the employee record to open the salary details page"): Step 1: Click on the employee record to open the salary details page
+
+26-12-2024T11:58:13 - [MESSAGE][INFO] - Step 1: Click on the employee record to open the salary details page
+
+26-12-2024T11:58:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/div_0034008")): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/div_0034008' is clicked on
+
+26-12-2024T11:58:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/div_0034008' is clicked on
+
+26-12-2024T11:58:15 - [TEST_STEP][PASSED] - comment("Step 2: Click on the "Salary" tab to access salary-related information"): Step 2: Click on the "Salary" tab to access salary-related information
+
+26-12-2024T11:58:15 - [MESSAGE][INFO] - Step 2: Click on the "Salary" tab to access salary-related information
+
+26-12-2024T11:58:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/a_Salary")): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/a_Salary' is clicked on
+
+26-12-2024T11:58:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/a_Salary' is clicked on
+
+26-12-2024T11:58:18 - [TEST_STEP][PASSED] - comment("Step 3: Click on the "Add" button to add a new salary record"): Step 3: Click on the "Add" button to add a new salary record
+
+26-12-2024T11:58:18 - [MESSAGE][INFO] - Step 3: Click on the "Add" button to add a new salary record
+
+26-12-2024T11:58:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/button_Add")): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/button_Add' is clicked on
+
+26-12-2024T11:58:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/button_Add' is clicked on
+
+26-12-2024T11:58:20 - [TEST_STEP][PASSED] - comment("Step 4: Set the salary component field to "CTC""): Step 4: Set the salary component field to "CTC"
+
+26-12-2024T11:58:20 - [MESSAGE][INFO] - Step 4: Set the salary component field to "CTC"
+
+26-12-2024T11:58:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus"), Salary_Component): Text 'Basic Pay' is set on object 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus'
+
+26-12-2024T11:58:20 - [MESSAGE][PASSED] - Text 'Basic Pay' is set on object 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/input_Salary Component_oxd-input oxd-input--focus'
+
+26-12-2024T11:58:20 - [TEST_STEP][PASSED] - comment("Step 5: Click on the dropdown to select the "Grade" option"): Step 5: Click on the dropdown to select the "Grade" option
+
+26-12-2024T11:58:20 - [MESSAGE][INFO] - Step 5: Click on the dropdown to select the "Grade" option
+
+26-12-2024T11:58:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec")): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+26-12-2024T11:58:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/i_-- Select --_oxd-icon bi-caret-up-fill ox_627fec' is clicked on
+
+26-12-2024T11:58:20 - [TEST_STEP][PASSED] - comment("Step 6: Select "Grade 1" from the dropdown for the grade"): Step 6: Select "Grade 1" from the dropdown for the grade
+
+26-12-2024T11:58:20 - [MESSAGE][INFO] - Step 6: Select "Grade 1" from the dropdown for the grade
+
+26-12-2024T11:58:20 - [TEST_STEP][PASSED] - click(findTestObject("Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown", ["value":Pay_Grade]), STOP_ON_FAILURE): Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:58:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Employee-Onboarding/Employee_Salary_Detail_Objects/Page_OrangeHRM/custom_object_for_dropdown' is clicked on
+
+26-12-2024T11:58:21 - [TEST_STEP][ERROR] - Delay(2): Test Cases/Employee_Onboarding/TC_Employee_Salary_Details FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.Delay() is applicable for argument types: (Integer) values: [2]
+Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), getAt(java.lang.String), sleep(long)
+	at TC_Employee_Salary_Details.run(TC_Employee_Salary_Details:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1735194241123.run(TempTestSuite1735194241123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+26-12-2024T11:58:21 - [MESSAGE][ERROR] - Test Cases/Employee_Onboarding/TC_Employee_Salary_Details FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.Delay() is applicable for argument types: (Integer) values: [2]
+Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), getAt(java.lang.String), sleep(long)
+	at TC_Employee_Salary_Details.run(TC_Employee_Salary_Details:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1735194241123.run(TempTestSuite1735194241123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[26-12-2024T11:58:09 - [TEST_CASE][ERROR] - Test Cases/Employee_Onboarding/TC_Employee_Salary_Details: Test Cases/Employee_Onboarding/TC_Employee_Salary_Details FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.Delay() is applicable for argument types: (Integer) values: [2]
+Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), getAt(java.lang.String), sleep(long)
+	at TC_Employee_Salary_Details.run(TC_Employee_Salary_Details:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1735194241123.run(TempTestSuite1735194241123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-12-2024T11:54:06 - [TEST_SUITE][ERROR] - TS_Employee_Onboarding: Test Cases/Employee_Onboarding/TC_Employee_Salary_Details FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.Delay() is applicable for argument types: (Integer) values: [2]
+Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), getAt(java.lang.String), sleep(long)
+	at TC_Employee_Salary_Details.run(TC_Employee_Salary_Details:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1735194241123.run(TempTestSuite1735194241123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[26-12-2024T11:54:06 - [TEST_SUITE][ERROR] - TS_Employee_Onboarding: Test Cases/Employee_Onboarding/TC_Employee_Salary_Details FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.Delay() is applicable for argument types: (Integer) values: [2]
+Possible solutions: delay(java.lang.Number), delay(java.lang.Number, com.kms.katalon.core.model.FailureHandling), every(), any(), getAt(java.lang.String), sleep(long)
+	at TC_Employee_Salary_Details.run(TC_Employee_Salary_Details:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1735194241123.run(TempTestSuite1735194241123.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

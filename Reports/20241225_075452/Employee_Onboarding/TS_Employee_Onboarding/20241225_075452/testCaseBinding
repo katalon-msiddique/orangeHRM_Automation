@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/Employee_Onboarding/TC_Employee_Login","testCaseId":"Test Cases/Employee_Onboarding/TC_Employee_Login","iterationVariableName":""}
+{"testCaseName":"Test Cases/Employee_Onboarding/TC_Employee_Onboarding","testCaseId":"Test Cases/Employee_Onboarding/TC_Employee_Onboarding","iterationVariableName":"","bindedValues":{"Firstname":"\u0027Sandra\u0027","EmployeePassword":"\u0027p7egalF197zCPQnMaznrNq5yBULcTkKN\u0027","Lastname":"\u0027Barber\u0027","EmployeeID":"\u002710001\u0027"}}
+{"testCaseName":"Test Cases/Employee_Onboarding/TC_PIM_Employee_Search","testCaseId":"Test Cases/Employee_Onboarding/TC_PIM_Employee_Search","iterationVariableName":""}
+{"testCaseName":"Test Cases/Employee_Onboarding/TC_Employee_Job_Details","testCaseId":"Test Cases/Employee_Onboarding/TC_Employee_Job_Details","iterationVariableName":""}
